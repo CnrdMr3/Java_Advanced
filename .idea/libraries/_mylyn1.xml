@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name=".mylyn1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/Book06-Chapter03/.metadata/.mylyn/.tasks.xml.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/Book06-Chapter03/.metadata/.mylyn/repositories.xml.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/Book06-Chapter03/.metadata/.mylyn/tasks.xml.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="repositories.xml">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/javaFX_V2.0/Workspaces/.metadata/.mylyn/repositories.xml.zip!/" />
+      <root url="file://$PROJECT_DIR$/javaFX_V2.0" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

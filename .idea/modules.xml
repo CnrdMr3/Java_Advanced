@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/AddSubtract1/AddSubtract1.iml" filepath="$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/AddSubtract1/AddSubtract1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/AddSubtract3/AddSubtract3.iml" filepath="$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/AddSubtract3/AddSubtract3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/AddSubtract4_LambdaExpressions/AddSubtract4_LambdaExpressions.iml" filepath="$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/AddSubtract4_LambdaExpressions/AddSubtract4_LambdaExpressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/AddSubtract5_LambdaExpressions/AddSubtract5_LambdaExpressions.iml" filepath="$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/AddSubtract5_LambdaExpressions/AddSubtract5_LambdaExpressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dummies/Dummies.iml" filepath="$PROJECT_DIR$/Dummies/Dummies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Advanced.iml" filepath="$PROJECT_DIR$/Java_Advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Advanced1.iml" filepath="$PROJECT_DIR$/Java_Advanced1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Advanced2.iml" filepath="$PROJECT_DIR$/Java_Advanced2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Advanced3.iml" filepath="$PROJECT_DIR$/Java_Advanced3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/SceneBasic/SceneBasic.iml" filepath="$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/SceneBasic/SceneBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/SceneSwitcher/SceneSwitcher.iml" filepath="$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/SceneSwitcher/SceneSwitcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/SceneSwitcherProgram_page609/SceneSwitcherProgram_page609.iml" filepath="$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/SceneSwitcherProgram_page609/SceneSwitcherProgram_page609.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/Book06-Chapter03/SettingStageAndScene_page603/SettingStageAndScene_page603.iml" filepath="$PROJECT_DIR$/Dummies/src/Book06_page566_javaFX/JavaFX_IntelliJ/Workspaces/Book06-Chapter03/SettingStageAndScene_page603/SettingStageAndScene_page603.iml" />
+    </modules>
+  </component>
+</project>
