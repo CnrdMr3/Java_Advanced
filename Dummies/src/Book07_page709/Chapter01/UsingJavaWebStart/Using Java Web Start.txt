@@ -1,0 +1,12 @@
+Java Web Start is a way to deploy Java applications via a web page. The web
+page can reside on the Internet or on a local company intranet. Either way,
+Java Web Start allows a user to run a Java program by browsing to a web page
+and clicking a link.
+
+Java Web Start can only be used to deploy programs that have a graphical user
+interface (GUI). The best way to develop a GUI program is to use JavaFX, as
+described in Book 6. You can also deploy GUI programs developed using Swing, an
+older method of creating GUI programs that isn’t covered in this book.
+
+In this chapter, you learn how to deploy a simple JavaFX application via Java Web
+Start.
