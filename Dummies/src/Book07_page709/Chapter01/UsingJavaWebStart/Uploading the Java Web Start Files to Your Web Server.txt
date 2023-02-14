@@ -1,0 +1,29 @@
+For this simple Java Web Start application, I’ve created a total of five files:
+
+» ClickMe.java: The source file for the ClickMe application, shown in
+Listing 1-1.
+
+» ClickMe.class: The compiled class file for the ClickMe application, created
+by the Java compiler.
+
+» ClickMe.jar: The JAR file that contains the ClickMe class. This file will be
+uploaded to the web server, and in turn downloaded to the user’s computer
+when the user launches the application from the web page.
+
+» ClickMe.jnlp: The JNLP file that references the ClickMe.jar file. This file
+will also be uploaded to the web server.
+
+» ClickMe.html: The HTML file that provides a link to the ClickMe.jnlp file. This
+file, too, will be uploaded to the web server.
+
+The JAR, JNLP, and HTML files all need to be uploaded to your web server so your
+users can access them via a browser. You can use whatever means you prefer to
+upload the files. If you prefer FTP, use an FTP client such as FileZilla to upload
+the files. If your web host provides an upload tool, you can use it. Or if your web
+server is local to your own network (for example, if it is an intranet server), you
+can simply use your operating system to copy the files.
+
+Regardless of how you accomplish it, the goal is to get the JAR, JNLP, and HTML
+files in a folder on your web server. For the ClickMe application, I uploaded the
+files to the ClickMe folder under my web root folder, so the HTML file will be
+accessible via the URL http://www.lowewriter.com/ClickMe/ClickMe.html.
