@@ -6,9 +6,9 @@ Looking at a Simple JavaFX Program:
 
     The JavaFX application used to illustrate Java Web Start is called ClickMe. When
     run, it simply displays the dialog box shown in Figure 1-1. As you can see, the
-    dialog box contains a button labeled “Click me please!” When the user clicks the
-    button, the button’s label changes to “You clicked me!” If the user clicks again,
-    the button reverts to “Click me please!” and the process repeats until the user
+    dialog box contains a button labeled "Click me please!", When the user clicks the
+    button, the button’s label changes to "You clicked me!" If the user clicks again,
+    the button reverts to "Click me please!" and the process repeats until the user
     closes the program by clicking the Close button (the X in the upper-right corner
     of the window).
 
@@ -26,13 +26,15 @@ import javafx.scene.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
 
+import java.util.Objects;
+
 public class ClickMe extends Application {
 	public static void main(String[] args) {
 		launch(args);
 		System.out.println("Done");
 	}
 
-	Button btn;
+	 Button btn;
 
 	@Override
 	public void start(Stage primaryStage) {
@@ -53,7 +55,7 @@ public class ClickMe extends Application {
 	}
 
 	public void buttonClick() {
-		if (btn.getText() == "Click me please!") {
+		if (Objects.equals(btn.getText(), "Click me please!")) {
 			btn.setText("You clicked me!");
 		} else {
 			btn.setText("Click me please!");
