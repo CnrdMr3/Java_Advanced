@@ -1,0 +1,13 @@
+To find out whether you installed Tomcat correctly, you can try running the test
+servlets that are automatically installed when you install Tomcat.
+Open a web-browser window, and type this address:
+
+> http://localhost:8080/
+
+(If you changed the port number by editing the server.xml file, as I discuss in the
+preceding section, use the port number you specified instead of 8080.)
+
+The page shown in Figure 2-2 appears. If it doesn't, refer to the section “Installing and configuring Tomcat,”
+earlier in this chapter, and double-check each step to make sure you did it correctly.
+
+<<== 'Figure2.2.png'

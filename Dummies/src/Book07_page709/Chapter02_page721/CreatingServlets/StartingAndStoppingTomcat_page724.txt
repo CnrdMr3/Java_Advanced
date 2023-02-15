@@ -1,0 +1,29 @@
+After you install and configure Tomcat, you can start it by opening a command
+window, changing to the c:\tomcat\bin directory, and typing startup. A batch file
+runs, starting Tomcat. When Tomcat starts, it opens a second command window
+that displays various status messages. Figure 2-1 shows the status window in action.
+
+<<== 'Figure2.1.png'
+
+
+You know that Tomcat has started when you see a line such as the following,
+indicating how long the startup took:
+
+> INFO: Server startup in 1186 ms
+
+If the Tomcat window appears for a few seconds, and then an exception message
+flies by quickly and the window closes, the most likely problem is that you already
+have a web server running on your system, and that server has already laid claim
+to the port Tomcat wants to use for HTTP communication. The solution to that
+problem is to edit the server.xml file in c:\tomcat\conf and look for this tag:
+
+> <Connector port="8080"... />
+
+Change the port number from 8080 to some other number, such as 18080. Later,
+when you display servlets in a browser window, you have to specify this number
+as the HTTP port number instead of 8080.
+
+You don’t need to shut down Tomcat after you start it unless you make a change
+in one of its configuration files. If you do, you can shut down Tomcat by running
+the shutdown batch file from the c:\tomcat\bin directory. Then you can run the
+startup batch file to get Tomcat going again.

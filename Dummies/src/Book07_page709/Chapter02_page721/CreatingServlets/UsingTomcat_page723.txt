@@ -1,0 +1,53 @@
+Unfortunately, you can’t run servlet programs on any old computer. First, you
+have to install a special program called a servlet engine to turn your computer
+into a server that’s capable of running servlets. The best-known servlet engine is
+Apache Tomcat, which is available free from the Apache Software Foundation at
+http://tomcat.apache.org. For this chapter, I used Tomcat version 8.
+
+Tomcat can also work as a basic web server. In actual production environments,
+Tomcat is usually used in combination with a specialized web server, such as
+Apache’s HTTP Server.
+
+-- Installing and configuring Tomcat --
+
+Installing Tomcat isn’t rocket science, but it’s not as easy as making toast, either.
+Here are the steps you can follow to set up Tomcat 8:
+
+1.  Download the Tomcat Zip file from the Apache website (http://tomcat.
+    apache.org).
+
+        Although Apache also offers an executable setup file for installing Tomcat,
+        I suggest that you download the Zip file instead.
+
+2.  Extract the contents of the Zip file by right-clicking the file and choosing
+    Extract All; then specify c:\ as the location to extract the files to.
+
+        I know you don’t want to clutter your root directory with a bunch of files, but
+        the Tomcat Zip file contains a single folder named apache-tomcat-8_0_0 (the
+        version number may vary), so only this one folder is created. After all the files
+        are extracted, give this folder a new name that’s a little easier to type. I suggest
+        c:\tomcat.
+
+3.  Create an environment variable named JAVA_HOME that points to the
+    location of your Java Development Kit (JDK).
+
+        To create an environment variable, open Control Panel, double-click the
+        System icon, and then click Advanced System Settings➪ Environment
+        Variables➪ New, and create a variable named JAVA_HOME. The value of this
+        variable needs to be the complete path to your JDK installation folder, such as
+        c:\Program Files\Java\jdk-9.
+
+        A common mistake is to set this variable to the bin directory or to the directory
+        for the Java Runtime Environment (JRE), not the JDK. If Tomcat doesn’t start up
+        later, double-check the JAVA_HOME directory.
+
+4.  Copy the servlet-api.jar file to the jre\lib\ext folder in your JDK root.
+
+        If your JDK is installed in c:\Program Files\Java\jdk-9, copy this file to c:\
+        Program Files\Java\jdk-9\jre\lib\ext. You find the servlet-api.jar file
+        in c:\tomcat\lib, assuming that you extracted the Tomcat files to c:\tomcat.
+
+        If you skip this step or copy the servlet-api.jar file to the wrong place, you
+        can’t compile your servlet programs. If you get compiler messages complaining
+        that the javax.servlet package doesn't exist, double-check this step to make
+        sure you performed it right.
