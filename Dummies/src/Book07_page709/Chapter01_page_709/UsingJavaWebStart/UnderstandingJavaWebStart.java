@@ -1,4 +1,4 @@
-package Book07_page709.Chapter01.UsingJavaWebStart;
+package Book07_page709.Chapter01_page_709.UsingJavaWebStart;
 
 public class UnderstandingJavaWebStart {
 	/*
