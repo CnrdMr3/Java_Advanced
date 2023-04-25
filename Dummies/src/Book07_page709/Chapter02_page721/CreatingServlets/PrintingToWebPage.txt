@@ -1,0 +1,22 @@
+/*
+    One of the main jobs of most servlets is writing HTML output that’s sent back
+    to the user’s browser. To do that, you first call the getWriter method of the
+    HttpServletResponse class, which returns a PrintWriter object that’s connected to the response object.
+    Thus, you can use the familiar print and println methods to write HTML text.
+
+    Here’s a doGet method for a simple HelloWorld servlet:
+
+  > Example:
+
+>>> public void doGet(HttpServletRequest request,
+     HttpServletResponse response)
+     throws IOException, ServletException
+    {
+     PrintWriter out = response.getWriter();
+     out.println("Hello, World!");
+    }
+
+    Here the PrintWriter object returned by response.getWriter() is used to send a
+    simple text string back to the browser. If you run this servlet, the browser displays
+    the text Hello, World!
+*/

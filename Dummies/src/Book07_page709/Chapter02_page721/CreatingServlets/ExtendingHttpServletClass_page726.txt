@@ -26,3 +26,20 @@
 
         destroy()     Servlet is destroyed     public void destroy()
 */
+
+/*
+    Most servlets override at least the doGet method. This method is called by the
+    servlet engine when a user requests the servlet by typing its address in the browser’s
+    address bar or by clicking a link that leads to the servlet.
+
+    Two parameters are passed to the doGet method:
+
+    » An HttpServletRequest object representing the incoming request from the
+      user. You use the request parameter primarily to retrieve data entered by
+      the user in form fields. You find out how to do that later in this chapter, in the
+      section “Getting Input from the User.”
+
+    » An HttpServletResponse object representing the response that is sent back
+    to the user. You use the response parameter to compose the output that is
+    sent back to the user. You find out how to do that in the next section.
+*/
