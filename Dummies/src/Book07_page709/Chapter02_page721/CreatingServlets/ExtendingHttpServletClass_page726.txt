@@ -1,0 +1,28 @@
+/*
+    To create a servlet, you write a class that extends the HttpServlet class. Table 2-1
+    lists six methods you can override in your servlet class.
+
+        TABLE 2-1	                The HttpServlet Class
+
+>>>>    METHOD         WHEN CALLED             SIGNATURE
+
+        doDelete       HTTP DELETE request     public void doDelete(Http ServletRequest request,
+                                                HttpServletResponse response)throws IOException,
+                                                ServletException
+
+        doGet          HTTP GET request        public void doGet(HttpServletRequest request,
+                                               HttpServletResponse response) throwsIOException,
+                                               ServletException
+
+        doPost        HTTP POST request        public void doPost(HttpServletRequest request,
+                                               HttpServletResponse response) throws IOException,
+                                               ServletException
+
+        doPut         HTTP PUT request         public void doPut(HttpServletRequest request,
+                                               HttpServletResponse response) throws IOException,
+                                               ServletException
+
+        init()        First time servlet runs  public void init() throws ServletException
+
+        destroy()     Servlet is destroyed     public void destroy()
+*/
