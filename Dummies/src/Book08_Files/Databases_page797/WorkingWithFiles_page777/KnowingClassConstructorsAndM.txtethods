@@ -1,0 +1,60 @@
+/*
+>>>  Table 1-1 lists the main constructors and methods of the File class.
+
+>>>  TABLE1-1	                The File Class
+
+>    Constructor                Description
+     File(String pathname)      Creates a file with the specified pathname.
+
+>    Field                      Description
+     String separator           Separates components of a pathname on this system; usually
+                                is \ or /.
+
+>    Method                     Description
+     boolean canRead()          Determines whether the file can be read.
+     boolean canWrite()         Determines whether the file can be written.
+     boolean createNewFile()    Creates the file on the hard drive if it doesn’t exist. The
+                                method returns true if the file was created or false if the file
+                                already existed.
+     boolean delete()           Deletes the file or directory. The method returns true if the file was
+                                deleted successfully.
+     boolean exists()           Returns true if the file exists on the hard drive and false if the file
+                                doesn't exist.
+     String getCanonicalPath()  Returns the complete path to the file, including the drive letter if run
+                                on a Windows system; throws IOException.
+     String getName()           Gets the name of this file.
+     String getParent()         Gets the name of the parent directory of this file or directory.
+     File getParentFile()       Gets a File object representing the parent directory of this file or
+                                directory.
+     boolean isDirectory()      Returns true if this File object is a directory or false if it is a file.
+     boolean isFile()           Returns true if this File object is a file or false if it is a directory.
+     boolean isHidden()         Returns true if this file or directory is marked by the operating
+                                system as hidden.
+     long lastModified()        Returns the time when the file was last modified, expressed in
+                                milliseconds since 0:00:00 a.m., January 1, 1970.
+     long length()              Returns the size of the file in bytes.
+     String[] list()            Returns an array of String objects with the name of each file and
+                                directory in this directory. Each string is a simple filename, not a
+                                complete path. If this File object is not a directory, the method
+                                returns null.
+     File[] listFiles()         Returns an array of File objects representing each file and directory
+                                in this directory. If this File object is not a directory, the method
+                                returns null.
+     static File[] listRoots() Returns an array containing a File object for the root directory of
+                               every file system available on the Java runtime. Unix systems usually
+                               have just one root, but Windows systems have a root for each drive.
+     boolean mkdir()           Creates a directory on the hard drive from this File object. The
+                               method returns true if the directory was created successfully.
+     boolean mkdirs()          Creates a directory on the hard drive from this File object, including
+                               any parent directories that are listed in the directory path but don’t
+                               already exist. The method returns true if the directory was created
+                               successfully.
+     boolean renameTo(File dest) Renames the File object to the specified destination File object.
+                                 The method returns true if the rename was successful.
+                                 boolean
+     setLastModified(long time)  Sets the last modified time for the File object. The method returns
+                                 true if the time was set successfully.
+     boolean setReadOnly()       Marks the file as read-only. The method returns true if the file was
+                                 marked successfully.
+     String toString()           Returns the pathname for this file or directory as a string.
+*/

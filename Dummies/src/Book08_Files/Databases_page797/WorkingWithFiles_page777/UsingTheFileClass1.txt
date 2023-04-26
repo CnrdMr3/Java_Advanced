@@ -1,0 +1,18 @@
+/*
+    The File class is your key to processing files and directories. A File object represents a single file or directory.
+    Note that the file or directory doesn't actually have
+    to exist on your hard drive. Instead, the File object represents a file that may or
+    may not actually exist.
+
+>> Technical stuff:
+   Java uses a single class to represent both files and directories because a directory
+   is actually nothing more than a special type of file. I suppose that the designers
+   of Java could have created a separate Directory class to represent directories, but
+   then you’d have to know how to use two classes instead of one.
+
+   The File class is in the java.io package, so any program that uses it should
+   import java.io.File or java.io.*.
+
+>> Tip:
+   Java 1.7 introduces a new Path class, which is designed to replace the File class.
+*/

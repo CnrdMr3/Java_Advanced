@@ -1,0 +1,16 @@
+/*
+    In this chapter, you discover the ins and outs of working with files and directories.
+    I don’t show you how to read or write files (for that info, you should flip
+    to Book 8, Chapter 2), but you do find out how to find files on the hard drive;
+    create, delete, and rename files; and work with directories.
+
+    You find out how to use the Swing file-chooser dialog box that lets you add filing capabilities to Swing
+    applications. Finally, you find out how to retrieve parameters from the command
+    line — a useful technique, because command-line parameters are often used to
+    pass file information to console programs.
+
+    Beginning with Java 1.7, you have two choices for working with files and directories:
+    You can use the original File class or you can use the new Path class, which
+    is part of a new file-processing package called NIO.2. (NIO.2 stands for New I/O
+    version 2.) This chapter covers both of these classes.
+*/
