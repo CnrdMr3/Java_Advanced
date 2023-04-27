@@ -1,0 +1,22 @@
+/*
+    Several of the methods of the File class simply return information about a file or
+    directory. You can find out whether the File object represents a file or directory,
+    for example, by calling its isDirectory or isFile method. Other methods let you
+    find out whether a file is read-only or hidden, or retrieve the file’s age and the
+    time when it was last modified.
+
+    You can get the name of the file represented by a File object in several popular
+    ways:
+
+    » To get just the filename, use the getName method. This method returns a
+    string that includes just the filename, not the complete path.
+    » To get the path that was specified to create the File object (such as \logs\
+    hit.log), use the toString method instead.
+
+    » To get the full path for a file — that is, the complete path including the drive
+    letter (for Windows systems) and all the directories and subdirectories leading
+    to the file — use the get CanonicalPath method. This method removes any
+    system-dependent oddities such as relative paths, dots (which represent the
+    current directory), and double dots (which represent the parent directory) to
+    get the file’s actual path.
+*/

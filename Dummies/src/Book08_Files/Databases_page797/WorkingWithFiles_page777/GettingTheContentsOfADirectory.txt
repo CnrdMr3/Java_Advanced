@@ -1,0 +1,10 @@
+/*
+    A directory is a file that contains a list of other files or directories.
+    Because a directory is just a special type of file, it’s represented by an object of the File class.
+    You can tell whether a particular File object is a directory by calling its isDirectory method.
+    If this method returns true, the File is a directory. Then you can array of all the files contained in
+    the directory by calling the listFiles method.
+
+>> Example:
+   > StringVariablePath & StringVariable2.
+*/
