@@ -20,6 +20,7 @@ Looking at a Simple JavaFX Program:
     learn how to deploy it using Java Web Start, please refer to Book 6, Chapter 1.
  */
 
+/*
 import javafx.application.*;
 import javafx.stage.*;
 import javafx.scene.*;
@@ -62,7 +63,7 @@ public class ClickMe extends Application {
 		}
 	}
 }
-
+*/
 /*
 The ClickMe.java source file can be compiled to a Java Class file by
 using the following command from a command prompt:

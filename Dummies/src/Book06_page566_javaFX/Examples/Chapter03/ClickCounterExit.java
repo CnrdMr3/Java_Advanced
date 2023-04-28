@@ -1,5 +1,6 @@
 package Book06_page566_javaFX.Examples.Chapter03;
 
+/*
 import javafx.application.*;
 import javafx.stage.*;
 import javafx.scene.*;
@@ -69,3 +70,4 @@ public class ClickCounterExit extends Application
         }
     }
 }
+*/

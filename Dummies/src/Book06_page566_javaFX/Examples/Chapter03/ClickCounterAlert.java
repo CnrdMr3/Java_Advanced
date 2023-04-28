@@ -2,6 +2,7 @@ package Book06_page566_javaFX.Examples.Chapter03;
 
 // ClickCounter with an Alert Box.
 
+/*
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
@@ -50,3 +51,4 @@ public class ClickCounterAlert extends Application {
         }
     }
 }
+*/

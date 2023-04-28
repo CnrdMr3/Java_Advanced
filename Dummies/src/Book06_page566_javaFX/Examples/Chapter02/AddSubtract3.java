@@ -2,6 +2,7 @@ package Book06_page566_javaFX.Examples.Chapter02;
 
 // AddSubtract with Anonymous Inner Classes.
 
+/*
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -58,3 +59,4 @@ public class AddSubtract3 extends Application {
         primaryStage.show();
     }
 }
+*/

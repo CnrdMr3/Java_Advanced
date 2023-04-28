@@ -1,5 +1,6 @@
 package Book06_page566_javaFX.Examples.Chapter03;
 
+/*
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -102,3 +103,4 @@ public class SceneSwitcher extends Application {
         stage.setScene(scene1);
     }
 }
+*/

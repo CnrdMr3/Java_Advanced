@@ -1,5 +1,6 @@
 package Book06_page566_javaFX.Examples.Chapter01;
 
+/*
 import javafx.application.*;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -38,3 +39,4 @@ public class ClickMe extends Application {
         }
     }
 }
+*/

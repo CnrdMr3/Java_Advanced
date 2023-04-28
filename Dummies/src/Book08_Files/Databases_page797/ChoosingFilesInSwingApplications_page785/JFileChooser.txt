@@ -1,0 +1,30 @@
+/*
+    For the most part, you don’t want to mess around with command-line parameters
+    in Swing applications. Instead, you want to use the JFileChooser class to let
+    users pick the files they want to work with. This class lets you display Open and
+    Save dialog boxes similar to the ones you’ve seen in other graphic user interface
+    (GUI) applications with just a few lines of code.
+
+    Figure 1-1 shows an Open dialog box created with just these two lines of code:
+
+    JFileChooser fc = new JFileChooser();
+    int result = fc.showOpenDialog(this);
+
+    This code appears in a frame class that extends the JFrame class, so the keyword in the showOpenDialog
+    call refers to the parent frame.
+
+    The result returned by the showOpenDialog method indicates whether the user
+    chose to open a file or click Cancel, and the JFileChooser class provides a handy
+    getSelectedFile method that you can use to get a File object for the file selected
+    by the user.
+
+!!! Remember:
+    The important thing to know about the JFileChooser class is that it doesn't
+    actually open or save the file selected by the user; instead, it returns a File object
+    for the file the user selects. Your program has the task of opening or saving
+    the file.
+
+    The JFileChooser class has many additional methods that you can use to tailor
+    its appearance and behavior in just about any way imaginable. Table 1-2 lists the
+    commonly used constructors and methods of this powerful class.
+*/

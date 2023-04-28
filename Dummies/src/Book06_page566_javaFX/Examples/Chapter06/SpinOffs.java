@@ -1,5 +1,6 @@
 package Book06_page566_javaFX.Examples.Chapter06;
 
+/*
 import javafx.application.*;
 import javafx.stage.*;
 import javafx.scene.*;
@@ -65,3 +66,4 @@ public class SpinOffs extends Application {
 		}
 	}
 }
+*/

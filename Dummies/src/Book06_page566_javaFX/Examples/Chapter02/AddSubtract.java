@@ -1,5 +1,6 @@
 package Book06_page566_javaFX.Examples.Chapter02;
 
+/*
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -57,3 +58,4 @@ public class AddSubtract extends Application
         lbl.setText(Integer.toString(iCounter));
     }
 }
+*/

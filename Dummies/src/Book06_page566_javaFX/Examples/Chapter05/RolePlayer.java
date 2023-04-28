@@ -1,5 +1,6 @@
 package Book06_page566_javaFX.Examples.Chapter05;
 
+/*
 import javafx.application.*;
 import javafx.stage.*;
 import javafx.scene.*;
@@ -93,3 +94,4 @@ public class RolePlayer extends Application {
 		}
 	}
 }
+*/

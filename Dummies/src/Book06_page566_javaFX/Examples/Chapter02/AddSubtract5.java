@@ -2,6 +2,7 @@ package Book06_page566_javaFX.Examples.Chapter02;
 
 // AddSubtract with Variation of Lambda Expressions.
 
+/*
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -54,3 +55,4 @@ public class AddSubtract5 extends Application {
         lbl.setText(Integer.toString(iCounter));
     }
 }
+*/
