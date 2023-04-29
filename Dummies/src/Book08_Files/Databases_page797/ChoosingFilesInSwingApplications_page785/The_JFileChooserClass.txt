@@ -1,0 +1,50 @@
+/*
+    TABLE 1-2	                                    The JFileChooser Class
+
+>>  Constructor                                 >>  Description
+
+    JFileChooser()                                  Creates a file chooser that begins at the user’s default
+                                                    directory. On Windows systems, this directory is usually
+                                                    My Documents.
+
+    JFileChooser(File File)                         Creates a file chooser that begins at the location
+                                                    indicated by the file parameter.
+
+    JFileChooser(String path)                       Creates a file chooser that begins at the location
+                                                    indicated by the path string.
+
+>>  Method                                      >>  Description
+
+    void addChoosableFileFilter(FileFilter filter)  Adds a file filter to the chooser.
+
+    File getSelectedFile()                          Returns a File object for the file selected by the user.
+
+    File[] getSelectedFiles()                       Returns an array of File objects for the files selected by
+                                                    the user if the file chooser allows multiple selections.
+
+    void setAcceptAllFileFilterUsed(boolean value)  If false, removes the Files filter from the file chooser.
+
+    void setApproveButtonText(String text)          Sets the text for the Approve button.
+
+    void setDialogTitle(String title)               Sets the title displayed by the file-chooser dialog box.
+
+    void setFileHidingEnabled(boolean value)        Doesn't show hidden files if true.
+
+    void setMultiSelectionEnabled(boolean value)    Allows the user to select more than one file if true.
+
+    int showDialog(Component parent,String text)    Displays a custom dialog box with the specified
+                                                    text for the Accept button. The return values are
+                                                    JFileChooser.CANCEL_OPTION, APPROVE_OPTION,
+                                                    and ERROR_OPTION.
+
+    void setFileSelectionMode(int mode)             Determines whether the user can select files,
+                                                    directories, or both. The parameter can be specified as
+                                                    JFileChooser.FILES_ONLY, DIRECTORIES_ONLY, or
+                                                    FILES_AND_DIRECTORIES.
+
+    int showOpenDialog(Component parent)            Displays an Open dialog box. The return values are the
+                                                    same as for the showDialog method.
+
+    int showSaveDialog(Component parent)            Displays a Save dialog box. The return values are the
+                                                    same as for the showDialog method.
+*/

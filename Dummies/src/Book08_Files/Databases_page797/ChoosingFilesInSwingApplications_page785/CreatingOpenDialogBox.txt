@@ -1,0 +1,42 @@
+/*
+    As you’ve just seen, you can create an Open dialog box with just a few lines of code.
+    First, you call the JFileChooser constructor to create a JFileChooser instance;
+    then you call the showOpenDialog method to display an Open dialog box.
+    If you don’t pass a parameter to the constructor, the file chooser starts in the
+    user’s default directory, which on most systems is the operating system’s current
+    directory. If you want to start in some other directory, you have two options:
+
+    » Create a File object for the directory and then pass the File object to the
+      constructor.
+
+    » Pass the pathname for the directory where you want to start to the
+      constructor.
+
+    The JFileChooser class also includes methods that let you control the appearance
+    of the chooser dialog box. You can use the setDialogTitle method to set the title
+    (the default is Open), for example, and you can use the setFileHidingEnabled
+    method to control whether hidden files are shown. If you want to allow the user to
+    select more than one file, use the setMultiSelectionEnabled method.
+
+    A setFileSelectionMode method lets you specify whether users can select files,
+    directories, or both. The options for this method need a little explanation:
+
+    » JFileChooser.FILES_ONLY: With this option (which is the default), the user
+      can choose files only with the file-chooser dialog box. The user can navigate
+      directories in the file-chooser dialog box but can’t actually select a directory.
+
+    » JFileChooser.DIRECTORIES_ONLY: With this option, the user can select only
+      directories, not files. One common use for this option is to let the user choose
+      a default location for files used by your application without actually opening a
+      file.
+
+    » JFileChooser.FILES_AND_DIRECTORIES: This option lets the user select
+      either a file or a directory. For most applications, you want the user to pick
+      either a file or a directory, but not both, so you probably won’t use this option
+      much.
+
+!!! Tip: In addition to an Open dialog box, you can display a Save dialog box by calling the
+         showSaveDialog method. A Save dialog box is similar to an Open dialog box but
+         has different default values for the title and the text shown on the Approve button.
+         Otherwise, these dialog boxes work pretty much the same way.
+*/

@@ -1,0 +1,35 @@
+/*
+    The file-chooser dialog box is a modal dialog box, which means that after you call
+    the showOpenDialog method, your application is tied up until the user closes the
+    file-chooser dialog box by clicking the Open or Cancel button.
+
+    You can find out which button the user clicked by inspecting the value returned by
+    the showOpenDialog method:
+
+    » If the user clicked Open, the return value is JFileChooser.APPROVE_OPTION.
+    » If the user clicked Cancel, the return value is JFileChooser.CANCEL_OPTION.
+    » If an I/O (input/output) or other error occurred, the return value is
+      JFileChooser.ERROR_OPTION.
+
+    Assuming that the showOpenDialog method returns APPROVE_OPTION, you can use
+    the getSelectedFile method to get a File object for the file selected by the user.
+    Then you can use this File object elsewhere in the program to read or write data.
+
+    Putting it all together, then, here’s a method that displays a file-chooser dialog
+    box and returns a File object for the file selected by the user. If the user cancels
+    or an error occurs, the method returns null.
+
+>> private File getFile()
+   {
+    JFileChooser fc = new JFileChooser();
+    int result = fc.showOpenDialog(null);
+    File file = null;
+    if (result == JFileChooser.APPROVE_OPTION)
+    file = fc.getSelectedFile();
+    return file;
+   }
+
+   You can call this method from an action event handler when the user clicks a
+   button, selects a menu command, or otherwise indicates that he or she wants to
+   open a file.
+*/
