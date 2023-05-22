@@ -1,4 +1,4 @@
-package Book08_Files.Databases_page797.WorkingWithFiles_page777;
+package Book08_Files.Databases_page775.WorkingWithFiles_page777;
 
 /*
 Command-line parameters are useful in Java programs that work with files as a

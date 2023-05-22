@@ -1,14 +1,14 @@
-package Book08_Files.Databases_page797.ChoosingFilesInSwingApplications_page785;
+package Book08_Files.Databases_page775.ChoosingFilesInSwingApplications_page785;
 
 import javax.swing.*;
 import java.awt.event.*;
 
-public class DialogBox extends JDialog {
+public class File extends JDialog {
 	private JPanel contentPane;
 	private JButton buttonOK;
 	private JButton buttonCancel;
 
-	public DialogBox() {
+	public File() {
 		setContentPane(contentPane);
 		setModal(true);
 		getRootPane().setDefaultButton(buttonOK);
@@ -52,7 +52,7 @@ public class DialogBox extends JDialog {
 	}
 
 	public static void main(String[] args) {
-		DialogBox dialog = new DialogBox();
+		File dialog = new File();
 		dialog.pack();
 		dialog.setVisible(true);
 		System.exit(0);
