@@ -4,10 +4,21 @@ import java.io.File;
 import java.util.Scanner;
 
 
+/**
+ * The type Dir list.
+ */
 public class DirList {
-    static Scanner sc = new Scanner(System.in);
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         System.out.print(
                 "Welcome to the Directory Lister");
         do {

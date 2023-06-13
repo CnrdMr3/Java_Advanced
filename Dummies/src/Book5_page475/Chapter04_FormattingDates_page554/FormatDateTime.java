@@ -5,8 +5,16 @@ import java.util.*;
 import java.time.*;
 import java.time.format.*;
 
+/**
+ * The type Format date time.
+ */
 public class FormatDateTime {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         LocalDateTime now = LocalDateTime.now();
         printDate(now, "YYYY-MM-dd");
         printDate(now, "MM-dd-YYYY");
@@ -16,7 +24,13 @@ public class FormatDateTime {
         printDate(now, "h:mm a");
     }
 
-    public static void printDate(LocalDateTime date, String pattern) {
+	/**
+	 * Print date.
+	 *
+	 * @param date    the date
+	 * @param pattern the pattern
+	 */
+	public static void printDate(LocalDateTime date, String pattern) {
         DateTimeFormatter f;
         f = DateTimeFormatter.ofPattern(pattern);
         pattern = (pattern + "              ").substring(0, 14);

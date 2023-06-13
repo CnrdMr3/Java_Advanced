@@ -2,10 +2,21 @@ package Book2_page65.Chapter06.SwitchStatements.IfStatementsInSwitch;
 
 import java.util.Scanner;
 
+/**
+ * The type Commission rate 2.
+ */
 public class CommissionRate2 {
-    static Scanner sc = new Scanner(System.in);
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         System.out.println("Enter Sales Class: ");
         System.out.println("Enter Sales Total: ");
 

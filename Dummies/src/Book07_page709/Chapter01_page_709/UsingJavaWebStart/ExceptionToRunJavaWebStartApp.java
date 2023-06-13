@@ -1,5 +1,8 @@
 package Book07_page709.Chapter01_page_709.UsingJavaWebStart;
 
+/**
+ * The type Exception to run java web start app.
+ */
 public class ExceptionToRunJavaWebStartApp {
 	/*
 	In some cases, Java’s security settings may prevent a Java Web Start application
@@ -8,6 +11,11 @@ public class ExceptionToRunJavaWebStartApp {
 	on a Windows computer:
 	 */
 
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		String one = "1. Open the Java Control Panel.\n\t" +
 					 "The easiest way to do that is to press the Start button, type java, press Enter,\n\t" +

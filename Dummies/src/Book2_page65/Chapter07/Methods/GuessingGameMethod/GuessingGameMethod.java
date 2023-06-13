@@ -2,11 +2,25 @@ package Book2_page65.Chapter07.Methods.GuessingGameMethod;
 
 import java.util.Scanner;
 
+/**
+ * The type Guessing game method.
+ */
 public class GuessingGameMethod {
-    static Scanner sc = new Scanner(System.in);
-    static boolean keepPlaying = true;
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
+	/**
+	 * The Keep playing.
+	 */
+	static boolean keepPlaying = true;
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         System.out.println("Let's play a guessing game!");
         while (keepPlaying) {
             playARound();
@@ -14,7 +28,10 @@ public class GuessingGameMethod {
         System.out.println("\nThank you for playing!");
     }
 
-    public static void playARound() {
+	/**
+	 * Play a round.
+	 */
+	public static void playARound() {
         boolean validInput;
         int number, guess;
         String answer;

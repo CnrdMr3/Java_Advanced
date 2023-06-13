@@ -1,7 +1,15 @@
 package Book3_page235.Chapter03.CountingInstances;
 
+/**
+ * The type Count test app.
+ */
 public class CountTestApp {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         printCount();
         for (int i = 0; i < 10; i++) {
             CountTest c1 = new CountTest();
@@ -17,14 +25,25 @@ public class CountTestApp {
     }
 }
 
+/**
+ * The type Count test.
+ */
 class CountTest {
     private static int instanceCount = 0;
 
-    public CountTest() {
+	/**
+	 * Instantiates a new Count test.
+	 */
+	public CountTest() {
         instanceCount++;
     }
 
-    public static int getInstanceCount() {
+	/**
+	 * Gets instance count.
+	 *
+	 * @return the instance count
+	 */
+	public static int getInstanceCount() {
         return instanceCount;
     }
 }

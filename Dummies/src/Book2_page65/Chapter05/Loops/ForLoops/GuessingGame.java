@@ -2,10 +2,21 @@ package Book2_page65.Chapter05.Loops.ForLoops;
 
 import java.util.Scanner;
 
+/**
+ * The type Guessing game.
+ */
 public class GuessingGame {
-    static Scanner sc = new Scanner(System.in);
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         boolean keepPlaying = true;
         System.out.println("Let's play a guessing game!");
         while (keepPlaying) {

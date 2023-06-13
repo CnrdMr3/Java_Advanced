@@ -1,7 +1,15 @@
 package Book3_page235.Chapter04.UnderstandingInheritanceAndConstructors;
 
+/**
+ * The type Ball.
+ */
 public class Ball {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         new myBall();
         new BaseBall();
     }

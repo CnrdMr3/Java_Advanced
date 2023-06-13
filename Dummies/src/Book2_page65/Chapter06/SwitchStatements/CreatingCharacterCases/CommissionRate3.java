@@ -2,9 +2,21 @@ package Book2_page65.Chapter06.SwitchStatements.CreatingCharacterCases;
 
 import java.util.Scanner;
 
+/**
+ * The type Commission rate 3.
+ */
 public class CommissionRate3 {
-    static Scanner sc = new Scanner(System.in);
-    public static void main(String[] args) {
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
+
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         System.out.println("Enter Sales Class: ");
 
         double commissionRate;

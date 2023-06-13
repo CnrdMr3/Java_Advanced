@@ -1,5 +1,11 @@
 package Book3_page235.Chapter05.UsingInterfaces.BasicInterface;
 
+/**
+ * The interface Playable.
+ */
 public interface Playable {
-    void play();
+	/**
+	 * Play.
+	 */
+	void play();
 }

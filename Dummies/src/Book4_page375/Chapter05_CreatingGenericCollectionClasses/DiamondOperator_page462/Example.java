@@ -1,5 +1,8 @@
 package Book4_page375.Chapter05_CreatingGenericCollectionClasses.DiamondOperator_page462;
 
+/**
+ * The type Example.
+ */
 public class Example {
 
     /*

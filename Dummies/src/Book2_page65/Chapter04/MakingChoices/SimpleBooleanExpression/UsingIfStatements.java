@@ -1,7 +1,15 @@
 package Book2_page65.Chapter04.MakingChoices.SimpleBooleanExpression;
 
+/**
+ * The type Using if statements.
+ */
 public class UsingIfStatements {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         //Typical if statement:
         double salesTotal = 0;
         double commissionRate = 10.0;

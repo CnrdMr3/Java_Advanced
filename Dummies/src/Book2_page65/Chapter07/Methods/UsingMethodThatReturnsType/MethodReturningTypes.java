@@ -1,12 +1,25 @@
 package Book2_page65.Chapter07.Methods.UsingMethodThatReturnsType;
 
+/**
+ * The type Method returning types.
+ */
 public class MethodReturningTypes {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         int number = getRandomNumber();
         System.out.println("Number is: " + number);
     }
 
-    public static int getRandomNumber() {
+	/**
+	 * Gets random number.
+	 *
+	 * @return the random number
+	 */
+	public static int getRandomNumber() {
         int num;
         while (true) {
             num = (int) (Math.random() * 20) + 1;

@@ -1,5 +1,8 @@
 package Book07_page709.Chapter01_page_709.UsingJavaWebStart;
 
+/**
+ * The type Creating jnlp.
+ */
 public class CreatingJNLP {
 	/*
 	To deploy a Java application via Java Web Start, you must create a JNLP file that
@@ -19,6 +22,11 @@ public class CreatingJNLP {
 	application.
 	 */
 
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		String JNLP = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
 				"<jnlp spec=\"1.0+\"\n" +

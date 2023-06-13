@@ -1,22 +1,44 @@
 package Book4_page375.Chapter05_CreatingGenericCollectionClasses.CreatingGenericClass_page451;
 
+/**
+ * The type Employee.
+ *
+ * @param <E> the type parameter
+ */
 public class Employee<E> extends ArrayList{
     private E o;
 
-    public boolean add(E o)
+	/**
+	 * Add boolean.
+	 *
+	 * @param o the o
+	 * @return the boolean
+	 */
+	public boolean add(E o)
     {
         this.o = o;
 // body of method omitted (thank you)
         return false;
     }
 
-    public E get(int index)
+	/**
+	 * Get e.
+	 *
+	 * @param index the index
+	 * @return the e
+	 */
+	public E get(int index)
     {
 // body of method omitted (you're welcome)
         return null;
     }
 
-    public Object clone()
+	/**
+	 * Clone object.
+	 *
+	 * @return the object
+	 */
+	public Object clone()
     {
         try
         {
@@ -35,11 +57,21 @@ public class Employee<E> extends ArrayList{
         }
     }
 
-    public E getO() {
+	/**
+	 * Gets o.
+	 *
+	 * @return the o
+	 */
+	public E getO() {
         return o;
     }
 
-    public void setO(E o) {
+	/**
+	 * Sets o.
+	 *
+	 * @param o the o
+	 */
+	public void setO(E o) {
         this.o = o;
     }
 }

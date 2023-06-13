@@ -10,18 +10,43 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
+/**
+ * The type Add subtract 2.
+ */
 public class AddSubtract2 extends Application {
 
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		launch(args);
 	}
 
 
+	/**
+	 * The Btn add.
+	 */
 	Button btnAdd;
+	/**
+	 * The Btn subtract.
+	 */
 	Button btnSubtract;
+	/**
+	 * The Lbl.
+	 */
 	Label lbl;
+	/**
+	 * The Counter.
+	 */
 	int iCounter = 0;
 
+	/**
+	 * Start.
+	 *
+	 * @param primaryStage the primary stage
+	 */
 	@Override
 	public void start(Stage primaryStage) {
 // Create a ClickHandler instance
@@ -50,6 +75,11 @@ public class AddSubtract2 extends Application {
 	}
 
 	private class ClickHandler implements EventHandler<ActionEvent> {
+		/**
+		 * Handle.
+		 *
+		 * @param e the e
+		 */
 		@Override
 		public void handle(ActionEvent e) {
 			if (e.getSource() == btnAdd) {

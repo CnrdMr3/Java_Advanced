@@ -3,8 +3,16 @@ package Book5_page475.Chapter04_ZoneOffset_page548;
 import java.util.*;
 import java.time.*;
 
+/**
+ * The type Zone offset class.
+ */
 public class ZoneOffsetClass {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
 
         ZoneOffset z = ZoneOffset.ofHours(-8);
 

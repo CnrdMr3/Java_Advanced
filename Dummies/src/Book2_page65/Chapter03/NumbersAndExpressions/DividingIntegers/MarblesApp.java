@@ -2,10 +2,21 @@ package Book2_page65.Chapter03.NumbersAndExpressions.DividingIntegers;
 
 import java.util.Scanner;
 
+/**
+ * The type Marbles app.
+ */
 public class MarblesApp {
-    static Scanner sc = new Scanner(System.in);
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         // declarations
         int numberOfMarbles;
         int numberOfChildren;

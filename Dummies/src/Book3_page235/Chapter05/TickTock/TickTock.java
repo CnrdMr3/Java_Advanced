@@ -4,8 +4,16 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * The type Tick tock.
+ */
 public class TickTock {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         Timer t = new Timer(1000, new Ticker());
         t.start();
 
@@ -13,10 +21,18 @@ public class TickTock {
     }
 }
 
+/**
+ * The type Ticker.
+ */
 class Ticker implements ActionListener {
     private boolean tick = true;
 
-    public void actionPerformed(ActionEvent event) {
+	/**
+	 * Action performed.
+	 *
+	 * @param event the event
+	 */
+	public void actionPerformed(ActionEvent event) {
         if (tick) {
             System.out.println("1");
         } else {

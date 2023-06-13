@@ -1,19 +1,33 @@
 package Book3_page235.Chapter08.WorkingWithPackages.ImportingClassesAndPackages_page354.util.test;
 
+/**
+ * The type Address.
+ */
 class Address implements Cloneable {
     private String street;
     private String city;
     private String state;
     private String zipCode;
 
-    public Address() {
+	/**
+	 * Instantiates a new Address.
+	 */
+	public Address() {
         this.street = "";
         this.city = "";
         this.state = "";
         this.zipCode = "";
     }
 
-    public Address(String street, String city,
+	/**
+	 * Instantiates a new Address.
+	 *
+	 * @param street  the street
+	 * @param city    the city
+	 * @param state   the state
+	 * @param zipCode the zip code
+	 */
+	public Address(String street, String city,
                    String state, String zipCode) {
         this.street = street;
         this.city = city;
@@ -21,7 +35,12 @@ class Address implements Cloneable {
         this.zipCode = zipCode;
     }
 
-    public Object clone() {
+	/**
+	 * Clone object.
+	 *
+	 * @return the object
+	 */
+	public Object clone() {
         try {
             return super.clone();
         } catch (CloneNotSupportedException e) {
@@ -29,7 +48,12 @@ class Address implements Cloneable {
         }
     }
 
-    public String getAddress() {
+	/**
+	 * Gets address.
+	 *
+	 * @return the address
+	 */
+	public String getAddress() {
         return this.street + "\n"
                 + this.city + ", "
                 + this.state + " "

@@ -1,5 +1,8 @@
 package Book07_page709.Chapter01_page_709.UsingJavaWebStart;
 
+/**
+ * The type Understanding java web start.
+ */
 public class UnderstandingJavaWebStart {
 	/*
 	Java Web Start works by providing a web link to a special file called a JNLP file.
@@ -34,6 +37,11 @@ public class UnderstandingJavaWebStart {
 	follows:
 	 */
 
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		String one = "1. Create a JAR file that contains the Java application you want to run via\n\t" +
 				"Java Web Start.";

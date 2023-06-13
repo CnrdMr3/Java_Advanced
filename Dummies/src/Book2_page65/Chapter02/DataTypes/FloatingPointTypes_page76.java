@@ -1,7 +1,15 @@
 package Book2_page65.Chapter02.DataTypes;
 
+/**
+ * The type Floating point types page 76.
+ */
 public class FloatingPointTypes_page76 {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         double period = 99.0;
         System.out.println(period);
 

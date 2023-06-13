@@ -1,5 +1,8 @@
 package Book07_page709.Chapter01_page_709.UsingJavaWebStart;
 
+/**
+ * The type Html file to launch java app.
+ */
 public class HtmlFileToLaunchJavaApp {
 	/*
 	Once you’ve created a JNLP file that describes your Java Web Start application, you
@@ -9,6 +12,11 @@ public class HtmlFileToLaunchJavaApp {
 	in Listing 1-3.
 	 */
 
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		// An HTML File That Links to a JNPL File
 		String HTML = "<html>\n" +

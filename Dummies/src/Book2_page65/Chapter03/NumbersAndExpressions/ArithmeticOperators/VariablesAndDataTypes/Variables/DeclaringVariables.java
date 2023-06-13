@@ -1,7 +1,15 @@
 package Book2_page65.Chapter03.NumbersAndExpressions.ArithmeticOperators.VariablesAndDataTypes.Variables;
 
+/**
+ * The type Declaring variables.
+ */
 public class DeclaringVariables {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         int x;
         String lastName;
         double radius;

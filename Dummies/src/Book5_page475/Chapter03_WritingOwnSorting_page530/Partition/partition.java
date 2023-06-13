@@ -1,9 +1,19 @@
 package Book5_page475.Chapter03_WritingOwnSorting_page530.Partition;
 
+/**
+ * The type Partition.
+ */
 public class partition {
     private static int[] a;
 
-    public static int partition(int low, int high)
+	/**
+	 * Partition int.
+	 *
+	 * @param low  the low
+	 * @param high the high
+	 * @return the int
+	 */
+	public static int partition(int low, int high)
     {
         int pivot = a[low];
         int i = low - 1;

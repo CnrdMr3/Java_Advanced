@@ -2,10 +2,21 @@ package Book2_page65.Chapter07.Methods.GuessingGameMethod2;
 
 import java.util.Scanner;
 
+/**
+ * The type Guessing game method 2.
+ */
 public class GuessingGameMethod2 {
-    static Scanner sc = new Scanner(System.in);
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         System.out.println("Let's play a guessing game!");
         do {
             playARound();
@@ -13,7 +24,10 @@ public class GuessingGameMethod2 {
         System.out.println("\nThank you for playing!");
     }
 
-    public static void playARound() {
+	/**
+	 * Play a round.
+	 */
+	public static void playARound() {
         boolean validInput;
         int number, guess;
         String answer;
@@ -32,11 +46,21 @@ public class GuessingGameMethod2 {
                     + " The number was " + number);
     }
 
-    public static int getRandomNumber() {
+	/**
+	 * Gets random number.
+	 *
+	 * @return the random number
+	 */
+	public static int getRandomNumber() {
         return (int) (Math.random() * 10) + 1;
     }
 
-    public static int getGuess() {
+	/**
+	 * Gets guess.
+	 *
+	 * @return the guess
+	 */
+	public static int getGuess() {
         while (true) {
             int guess = sc.nextInt();
             if ((guess < 1) || (guess > 10)) {
@@ -47,7 +71,12 @@ public class GuessingGameMethod2 {
         }
     }
 
-    public static boolean askForAnotherRound() {
+	/**
+	 * Ask for another round boolean.
+	 *
+	 * @return the boolean
+	 */
+	public static boolean askForAnotherRound() {
         while (true) {
             String answer;
             System.out.print("\nPlay again? (Y or N) ");

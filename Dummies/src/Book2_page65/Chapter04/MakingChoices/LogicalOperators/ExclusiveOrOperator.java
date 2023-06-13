@@ -1,7 +1,15 @@
 package Book2_page65.Chapter04.MakingChoices.LogicalOperators;
 
+/**
+ * The type Exclusive or operator.
+ */
 public class ExclusiveOrOperator {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         int switch1 = 0;
         int switch2 = 0;
 

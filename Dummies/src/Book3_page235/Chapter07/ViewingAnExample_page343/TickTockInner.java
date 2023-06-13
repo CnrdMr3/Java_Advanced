@@ -5,11 +5,19 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
+/**
+ * The type Tick tock inner.
+ */
 public class TickTockInner {
     private String tickMessage = "Tick...";
     private String tockMessage = "Tock...";
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         TickTockInner t = new TickTockInner();
         t.go();
     }
@@ -26,10 +34,18 @@ public class TickTockInner {
         System.exit(0);
     }
 
-    class Ticker implements ActionListener {
+	/**
+	 * The type Ticker.
+	 */
+	class Ticker implements ActionListener {
         private boolean tick = true;
 
-        public void actionPerformed(ActionEvent event) {
+		/**
+		 * Action performed.
+		 *
+		 * @param event the event
+		 */
+		public void actionPerformed(ActionEvent event) {
             if (tick) {
                 System.out.println(tickMessage);
             } else {

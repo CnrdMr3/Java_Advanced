@@ -1,7 +1,15 @@
 package Book5_page475.Chapter03_WritingOwnSorting_page530.SortingProgram;
 
+/**
+ * The type Quick sort app.
+ */
 public class QuickSortApp {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         int LEN = 100;
         int[] unsorted = new int[LEN];
         for (int i = 0; i < LEN; i++)
@@ -27,13 +35,25 @@ public class QuickSortApp {
 
     private static int[] a;
 
-    public static int[] sort(int[] array) {
+	/**
+	 * Sort int [ ].
+	 *
+	 * @param array the array
+	 * @return the int [ ]
+	 */
+	public static int[] sort(int[] array) {
         a = array;
         sort(0, a.length - 1);
         return a;
     }
 
-    public static void sort(int low, int high) {
+	/**
+	 * Sort.
+	 *
+	 * @param low  the low
+	 * @param high the high
+	 */
+	public static void sort(int low, int high) {
         if (low >= high)
             return;
         int p = partition(low, high);
@@ -41,7 +61,14 @@ public class QuickSortApp {
         sort(p + 1, high);
     }
 
-    public static int partition(int low, int high) {
+	/**
+	 * Partition int.
+	 *
+	 * @param low  the low
+	 * @param high the high
+	 * @return the int
+	 */
+	public static int partition(int low, int high) {
         int pivot = a[low];
         int i = low - 1;
         int j = high + 1;
@@ -60,7 +87,13 @@ public class QuickSortApp {
         a[j] = temp;
     } */
 
-    // Improve performance:
+	/**
+	 * Swap.
+	 *
+	 * @param i the
+	 * @param j the j
+	 */
+// Improve performance:
     public static void swap(int i, int j) {
         a[i] ^= a[j];
         a[j] ^= a[i];

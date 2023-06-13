@@ -12,8 +12,16 @@ The basic form for declaring and instantiating an anonymous class is this:
    list that’s passed to the constructor of the anonymous class.
  */
 
+/**
+ * The type Anon class.
+ */
 public class AnonClass {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         Ball b = new Ball() {
             public void hit() {
                 System.out.print("You hit it!");
@@ -22,7 +30,13 @@ public class AnonClass {
         b.hit();
     }
 
-    interface Ball {
-        void hit();
+	/**
+	 * The interface Ball.
+	 */
+	interface Ball {
+		/**
+		 * Hit.
+		 */
+		void hit();
     }
 }

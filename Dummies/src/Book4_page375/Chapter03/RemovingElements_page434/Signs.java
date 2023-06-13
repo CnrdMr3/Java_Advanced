@@ -5,8 +5,16 @@ import Book3_page235.Chapter06.ObjectAsType.Employee;
 
 import java.util.ArrayList;
 
+/**
+ * The type Signs.
+ */
 public class Signs {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         // Multi line Array method:
         //ArrayList signs;
         //signs = new ArrayList();

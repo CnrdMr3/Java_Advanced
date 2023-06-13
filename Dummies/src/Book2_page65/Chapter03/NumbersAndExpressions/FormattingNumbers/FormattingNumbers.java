@@ -2,8 +2,16 @@ package Book2_page65.Chapter03.NumbersAndExpressions.FormattingNumbers;
 
 import java.text.NumberFormat;
 
+/**
+ * The type Formatting numbers.
+ */
 public class FormattingNumbers {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         double salesTax = 2.425;
         NumberFormat cf = NumberFormat.getCurrencyInstance();
         System.out.println(cf.format(salesTax));

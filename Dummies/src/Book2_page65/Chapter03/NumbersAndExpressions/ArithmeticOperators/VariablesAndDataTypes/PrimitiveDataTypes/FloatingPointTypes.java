@@ -5,8 +5,16 @@ package Book2_page65.Chapter03.NumbersAndExpressions.ArithmeticOperators.Variabl
 
 // By contrast, double variables have a precision of about 15 digits.
 
+/**
+ * The type Floating point types.
+ */
 public class FloatingPointTypes {
-  public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
       double period = 99.0;
 
       // Using an "F" or a "D" suffix at the end of a value saves time.

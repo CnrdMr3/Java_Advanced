@@ -1,5 +1,8 @@
 package Book5_page475.Chapter03_UsingRecursion_page523.RecursiveSolution_page524;
 
+/**
+ * The type Factorial.
+ */
 public class Factorial {
     private static long factorial(int n)
     {

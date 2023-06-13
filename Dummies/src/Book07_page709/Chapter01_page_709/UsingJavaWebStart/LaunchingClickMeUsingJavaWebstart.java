@@ -1,5 +1,8 @@
 package Book07_page709.Chapter01_page_709.UsingJavaWebStart;
 
+/**
+ * The type Launching click me using java webstart.
+ */
 public class LaunchingClickMeUsingJavaWebstart {
 	/*
 	When all the files are in place, a web user can access the ClickMe application
@@ -11,6 +14,11 @@ public class LaunchingClickMeUsingJavaWebstart {
 	in Figure 1-3 appears, asking the user whether she wants to run the application.
 	 */
 
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		String Run = "Assuming the user clicks Run, the ClickMe application is then run, as shown in\n" +
 				"Figure 1-4.";

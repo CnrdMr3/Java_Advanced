@@ -1,7 +1,15 @@
 package Book5_page475.Chapter01_CountDownApp_page483;
 
+/**
+ * The type Count down app.
+ */
 public class CountDownApp {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
 
         Thread clock = new CountDownClock();
 

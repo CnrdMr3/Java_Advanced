@@ -1,7 +1,15 @@
 package Book3_page235.Chapter06.EqualsMethod_page322.ComparingObjects;
 
+/**
+ * The type Test equality 2.
+ */
 public class TestEquality2 {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         Employee emp1 = new Employee(
                 "Martinez", "Anthony");
         Employee emp2 = new Employee(
@@ -15,24 +23,49 @@ public class TestEquality2 {
     }
 }
 
+/**
+ * The type Employee.
+ */
 class Employee {
     private String lastName;
     private String firstName;
 
-    public Employee(String lastName, String firstName) {
+	/**
+	 * Instantiates a new Employee.
+	 *
+	 * @param lastName  the last name
+	 * @param firstName the first name
+	 */
+	public Employee(String lastName, String firstName) {
         this.lastName = lastName;
         this.firstName = firstName;
     }
 
-    public String getLastName() {
+	/**
+	 * Gets last name.
+	 *
+	 * @return the last name
+	 */
+	public String getLastName() {
         return this.lastName;
     }
 
-    public String getFirstName() {
+	/**
+	 * Gets first name.
+	 *
+	 * @return the first name
+	 */
+	public String getFirstName() {
         return this.firstName;
     }
 
-    // NOTE!!!
+	/**
+	 * Equals boolean.
+	 *
+	 * @param obj the obj
+	 * @return the boolean
+	 */
+// NOTE!!!
     public boolean equals(Object obj) {
         // an object must equal itself
         if (this == obj)

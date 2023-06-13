@@ -3,11 +3,17 @@ package Book08_Files.Databases_page775.ChoosingFilesInSwingApplications_page785;
 import javax.swing.*;
 import java.awt.event.*;
 
+/**
+ * The type Dialog box.
+ */
 public class DialogBox extends JDialog {
 	private JPanel contentPane;
 	private JButton buttonOK;
 	private JButton buttonCancel;
 
+	/**
+	 * Instantiates a new Dialog box.
+	 */
 	public DialogBox() {
 		setContentPane(contentPane);
 		setModal(true);
@@ -51,6 +57,11 @@ public class DialogBox extends JDialog {
 		dispose();
 	}
 
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		DialogBox dialog = new DialogBox();
 		dialog.pack();

@@ -4,11 +4,19 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * The type Tick tock anonymous.
+ */
 public class TickTockAnonymous {
     private String tickMessage = "Tick...";
     private String tockMessage = "Tock...";
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         TickTockAnonymous t = new TickTockAnonymous();
         t.go();
     }

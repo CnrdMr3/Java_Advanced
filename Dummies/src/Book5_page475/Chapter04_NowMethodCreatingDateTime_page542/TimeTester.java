@@ -8,8 +8,16 @@ package Book5_page475.Chapter04_NowMethodCreatingDateTime_page542;
 import java.util.*;
 import java.time.*;
 
+/**
+ * The type Time tester.
+ */
 public class TimeTester {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         System.out.println("\nLocalTime: "
                 + LocalTime.now().toString());
         System.out.println("\nLocalDateTime: "

@@ -1,7 +1,15 @@
 package Book3_page235.Chapter04.DeterminingObjectType;
 
+/**
+ * The type Employee.
+ */
 public class Employee {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
        // Employee5 emp = getEmployee();
         Employee emp1 = new SalariedEmployee();
         Employee emp2 = new HourlyEmployee();

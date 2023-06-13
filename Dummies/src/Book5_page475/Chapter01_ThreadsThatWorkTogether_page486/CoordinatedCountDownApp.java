@@ -2,10 +2,21 @@ package Book5_page475.Chapter01_ThreadsThatWorkTogether_page486;
 
 import java.util.ArrayList;
 
+/**
+ * The type Coordinated count down app.
+ */
 public class CoordinatedCountDownApp {
 
-    public class CountDownApp {
-        public void main(String[] args) {
+	/**
+	 * The type Count down app.
+	 */
+	public class CountDownApp {
+		/**
+		 * Main.
+		 *
+		 * @param args the args
+		 */
+		public void main(String[] args) {
             CountDownClock clock = new CountDownClock(20);
             ArrayList<Runnable> events =
                     new ArrayList<Runnable>();
@@ -20,22 +31,43 @@ public class CoordinatedCountDownApp {
         }
     }
 
-    interface TimeMonitor
+	/**
+	 * The interface Time monitor.
+	 */
+	interface TimeMonitor
 
     {
-        int getTime ();
+	    /**
+	     * Gets time.
+	     *
+	     * @return the time
+	     */
+	    int getTime ();
     }
 
-    class CountDownClock extends Thread
+	/**
+	 * The type Count down clock.
+	 */
+	class CountDownClock extends Thread
             implements TimeMonitor
 
     {
         private int t;
-public CountDownClock( int start)
+
+	    /**
+	     * Instantiates a new Count down clock.
+	     *
+	     * @param start the start
+	     */
+	    public CountDownClock( int start)
         {
             this.t = start;
         }
-        public void run ()
+
+	    /**
+	     * Run.
+	     */
+	    public void run ()
         {
             for (; t >= 0; t--)
             {
@@ -52,20 +84,38 @@ public CountDownClock( int start)
         }
     }
 
-    class LaunchEvent implements Runnable
+	/**
+	 * The type Launch event.
+	 */
+	class LaunchEvent implements Runnable
 
     {
         private int start;
         private String message;
-        TimeMonitor tm;
-public LaunchEvent( int start, String message,
+	    /**
+	     * The Tm.
+	     */
+	    TimeMonitor tm;
+
+	    /**
+	     * Instantiates a new Launch event.
+	     *
+	     * @param start   the start
+	     * @param message the message
+	     * @param monitor the monitor
+	     */
+	    public LaunchEvent( int start, String message,
             TimeMonitor monitor)
         {
             this.start = start;
             this.message = message;
             this.tm = monitor;
         }
-        public void run ()
+
+	    /**
+	     * Run.
+	     */
+	    public void run ()
         {
             boolean eventDone = false;
             while (!eventDone) {

@@ -1,7 +1,15 @@
 package Book2_page65.Chapter01.ProgrammingBasics.ObjectOrientatedProgramming;
 
+/**
+ * The type Creating object from class page 59.
+ */
 public class CreatingObjectFromClass_page59 {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         /*
         ClassName variableName = new ClassName();
          */

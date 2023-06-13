@@ -1,7 +1,13 @@
 package Book3_page235.Chapter03.StaticInitializers;
 
+/**
+ * The type Static init.
+ */
 class StaticInit {
-    public static int x;
+	/**
+	 * The constant x.
+	 */
+	public static int x;
 
     static {
         x = 32;

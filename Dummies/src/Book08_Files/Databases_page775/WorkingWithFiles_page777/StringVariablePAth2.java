@@ -2,8 +2,16 @@ package Book08_Files.Databases_page775.WorkingWithFiles_page777;
 
 import java.io.File;
 
+/**
+ * The type String variable p ath 2.
+ */
 public class StringVariablePAth2 {
-	// The following snippet is a little more selective because it lists only files, not subdirectories,
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+// The following snippet is a little more selective because it lists only files, not subdirectories,
 	// and doesn't list hidden files:
 	public static void main(String[] args) {
 		String path = new String();

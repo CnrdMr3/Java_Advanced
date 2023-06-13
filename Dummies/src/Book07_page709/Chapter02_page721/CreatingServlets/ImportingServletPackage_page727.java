@@ -1,6 +1,14 @@
 package Book07_page709.Chapter02_page721.CreatingServlets;
 
+/**
+ * The type Importing servlet package page 727.
+ */
 public class ImportingServletPackage_page727 {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		/*
 		Most servlets need access to at least three packages:

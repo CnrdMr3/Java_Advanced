@@ -2,8 +2,16 @@ package Book3_page235.Chapter06.ClassClass_page338;
 
 import java.lang.*;
 
+/**
+ * The type Class.
+ */
 public class Class {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         Employee emp = new Employee();
         java.lang.Class c = emp.getClass();
         Employee emp1 = new Employee(
@@ -16,46 +24,93 @@ public class Class {
     }
 }
 
+/**
+ * The type Employee.
+ */
 class Employee {
     private String lastName;
     private String firstName;
     private Double salary;
 
-    public Employee(String lastName,
+	/**
+	 * Instantiates a new Employee.
+	 *
+	 * @param lastName  the last name
+	 * @param firstName the first name
+	 */
+	public Employee(String lastName,
                     String firstName) {
         this.lastName = lastName;
         this.firstName = firstName;
     }
 
-    public Employee() {
+	/**
+	 * Instantiates a new Employee.
+	 */
+	public Employee() {
 
     }
 
-    public String getLastName() {
+	/**
+	 * Gets last name.
+	 *
+	 * @return the last name
+	 */
+	public String getLastName() {
         return this.lastName;
     }
 
-    public void setLastName(String lastName) {
+	/**
+	 * Sets last name.
+	 *
+	 * @param lastName the last name
+	 */
+	public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
-    public String getFirstName() {
+	/**
+	 * Gets first name.
+	 *
+	 * @return the first name
+	 */
+	public String getFirstName() {
         return this.firstName;
     }
 
-    public void setFirstName(String firstName) {
+	/**
+	 * Sets first name.
+	 *
+	 * @param firstName the first name
+	 */
+	public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    public Double getSalary() {
+	/**
+	 * Gets salary.
+	 *
+	 * @return the salary
+	 */
+	public Double getSalary() {
         return this.salary;
     }
 
-    public void setSalary(Double salary) {
+	/**
+	 * Sets salary.
+	 *
+	 * @param salary the salary
+	 */
+	public void setSalary(Double salary) {
         this.salary = salary;
     }
 
-    public Object clone() {
+	/**
+	 * Clone object.
+	 *
+	 * @return the object
+	 */
+	public Object clone() {
         Employee emp;
         emp = new Employee(
                 this.lastName, this.firstName);
@@ -63,7 +118,12 @@ class Employee {
         return emp;
     }
 
-    public String toString() {
+	/**
+	 * To string string.
+	 *
+	 * @return the string
+	 */
+	public String toString() {
         return this.getClass().getName() + "["
                 + this.firstName + " "
                 + this.lastName + ", "

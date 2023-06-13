@@ -3,15 +3,44 @@ package Book5_page475.Chapter02_RegularExpressions_page506;
 import java.util.regex.*;
 import java.util.Scanner;
 
+/**
+ * The type Regular expressions test.
+ */
 public final class RegularExpressionsTest {
-    static String r, s;
-    static Pattern pattern;
-    static Matcher matcher;
-    static boolean match, validRegex, doneMatching;
+	/**
+	 * The R.
+	 */
+	static String r, /**
+	 * The S.
+	 */
+	s;
+	/**
+	 * The Pattern.
+	 */
+	static Pattern pattern;
+	/**
+	 * The Matcher.
+	 */
+	static Matcher matcher;
+	/**
+	 * The Match.
+	 */
+	static boolean match, /**
+	 * The Valid regex.
+	 */
+	validRegex, /**
+	 * The Done matching.
+	 */
+	doneMatching;
     private static Scanner sc =
             new Scanner(System.in);
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         System.out.println("Welcome to the "
                 + "Regex Tester\n");
         do {

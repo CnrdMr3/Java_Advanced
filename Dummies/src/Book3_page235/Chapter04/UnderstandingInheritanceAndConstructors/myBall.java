@@ -1,7 +1,13 @@
 package Book3_page235.Chapter04.UnderstandingInheritanceAndConstructors;
 
+/**
+ * The type My ball.
+ */
 public class myBall extends Ball{
-    public myBall(){
+	/**
+	 * Instantiates a new My ball.
+	 */
+	public myBall(){
         System.out.println("myBall.");
     }
 }

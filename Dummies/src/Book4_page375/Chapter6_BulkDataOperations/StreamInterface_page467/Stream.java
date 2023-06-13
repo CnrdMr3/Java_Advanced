@@ -1,5 +1,8 @@
 package Book4_page375.Chapter6_BulkDataOperations.StreamInterface_page467;
 
+/**
+ * The type Stream.
+ */
 public class Stream {
     /*
     The Stream interface defines about 40 methods. In addition, three related

@@ -1,5 +1,8 @@
 package Book2_page65.Chapter02.DeclaringInstanceVariable;
 
+/**
+ * The type Hello app.
+ */
 public class HelloApp {
     /*
     String helloMessage; // error -- should use static keyword

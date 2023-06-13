@@ -1,7 +1,15 @@
 package Book2_page65.Chapter08.Exceptions.UsingAFinallyBlock;
 
+/**
+ * The type Crazy with zeros.
+ */
 public class CrazyWithZeros {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         try {
             int answer = divideTheseNumbers(5, 0);
         } catch (Exception e) {
@@ -10,7 +18,15 @@ public class CrazyWithZeros {
         }
     }
 
-    public static int divideTheseNumbers(int a, int b)
+	/**
+	 * Divide these numbers int.
+	 *
+	 * @param a the a
+	 * @param b the b
+	 * @return the int
+	 * @throws Exception the exception
+	 */
+	public static int divideTheseNumbers(int a, int b)
             throws Exception {
         int c;
         try {

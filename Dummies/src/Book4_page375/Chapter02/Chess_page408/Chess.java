@@ -2,9 +2,18 @@ package Book4_page375.Chapter02.Chess_page408;
 
 import java.util.Scanner;
 
+/**
+ * The type Chess.
+ */
 public class Chess {
-        static Scanner sc = new Scanner(System.in);
-        // the following static array represents the 8
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
+	/**
+	 * The constant moves.
+	 */
+// the following static array represents the 8
         // possible moves a knight can make
         // this is an 8 x 2 array
         static int[][] moves = {{-2, +1},
@@ -16,7 +25,12 @@ public class Chess {
                 {-1, -2},
                 {-2, -1}};
 
-        public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
                 System.out.println("Welcome to the "
                         + "Knight Move calculator.\n");
                 do {
@@ -31,7 +45,10 @@ public class Chess {
                 return false;
         }
 
-        public static void showKnightMoves() {
+	/**
+	 * Show knight moves.
+	 */
+	public static void showKnightMoves() {
                 // The first dimension is the file (a, b, c, etc.)
                 // The second dimension is the rank (1, 2, 3, etc.)
                 // Thus, board[3][4] is square d5.

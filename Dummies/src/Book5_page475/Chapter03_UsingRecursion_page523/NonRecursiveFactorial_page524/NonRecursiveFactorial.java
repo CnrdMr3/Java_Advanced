@@ -1,7 +1,15 @@
 package Book5_page475.Chapter03_UsingRecursion_page523.NonRecursiveFactorial_page524;
 
+/**
+ * The type Non recursive factorial.
+ */
 public class NonRecursiveFactorial {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         int n = 5;
         long fact;
         fact = factorial(n);

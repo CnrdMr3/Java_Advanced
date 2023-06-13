@@ -2,11 +2,22 @@ package Book4_page375.Chapter01_UsingForLoopsWithArrays_page396;
 
 import java.util.Scanner;
 
+/**
+ * The type Players.
+ */
 public class Players {
 
-    static Scanner sc = new Scanner(System.in);
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         int count = 0;
         int[] numbers = new int[100];
         for (int i = 0; i < 100; i++)

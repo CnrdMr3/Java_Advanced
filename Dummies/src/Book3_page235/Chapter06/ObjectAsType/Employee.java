@@ -1,18 +1,40 @@
 package Book3_page235.Chapter06.ObjectAsType;
 
+/**
+ * The type Employee.
+ */
 public class Employee extends Person {
-    public Employee(String addams, String gomez) {
+	/**
+	 * Instantiates a new Employee.
+	 *
+	 * @param addams the addams
+	 * @param gomez  the gomez
+	 */
+	public Employee(String addams, String gomez) {
 
     }
 
-    public Employee() {
+	/**
+	 * Instantiates a new Employee.
+	 */
+	public Employee() {
 
     }
 
-    public void changeName(String robert) {
+	/**
+	 * Change name.
+	 *
+	 * @param robert the robert
+	 */
+	public void changeName(String robert) {
     }
 
-    public void setLastName(String smith) {
+	/**
+	 * Sets last name.
+	 *
+	 * @param smith the smith
+	 */
+	public void setLastName(String smith) {
     }
     /* If the Employee5 class has a method named
        setLastName, the following code doesn't work:

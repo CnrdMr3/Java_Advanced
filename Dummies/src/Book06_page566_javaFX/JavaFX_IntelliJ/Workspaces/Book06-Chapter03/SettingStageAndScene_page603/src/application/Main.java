@@ -6,7 +6,15 @@ import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 
 
+/**
+ * The type Main.
+ */
 public class Main extends Application {
+	/**
+	 * Start.
+	 *
+	 * @param primaryStage the primary stage
+	 */
 	@Override
 	public void start(Stage primaryStage) {
 		try {
@@ -19,7 +27,12 @@ public class Main extends Application {
 			e.printStackTrace();
 		}
 	}
-	
+
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		launch(args);
 	}

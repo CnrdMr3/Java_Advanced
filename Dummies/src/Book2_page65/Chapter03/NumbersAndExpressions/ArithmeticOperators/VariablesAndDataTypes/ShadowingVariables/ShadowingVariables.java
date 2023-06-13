@@ -5,10 +5,21 @@ package Book2_page65.Chapter03.NumbersAndExpressions.ArithmeticOperators.Variabl
    in a more immediate scope.
 */
 
+/**
+ * The type Shadowing variables.
+ */
 public class ShadowingVariables {
-    static int x;
+	/**
+	 * The X.
+	 */
+	static int x;
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         x = 5;
         System.out.println("x = " + x);
         int x;

@@ -1,7 +1,15 @@
 package Book3_page235.Chapter04.Polymorphism;
 
+/**
+ * The type Better player.
+ */
 public class BetterPlayer extends Player {
-    public int move() {
+	/**
+	 * Move int.
+	 *
+	 * @return the int
+	 */
+	public int move() {
         System.out.println("\nThe better player says:");
         System.out.println(
                 "I'm looking for a good move...");

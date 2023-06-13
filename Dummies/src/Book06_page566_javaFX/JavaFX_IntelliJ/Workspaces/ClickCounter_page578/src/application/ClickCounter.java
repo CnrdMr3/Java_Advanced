@@ -7,15 +7,37 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
+/**
+ * The type Click counter.
+ */
 public class ClickCounter extends Application {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		launch(args);
 	}
 
+	/**
+	 * The Btn.
+	 */
 	Button btn;
+	/**
+	 * The Lbl.
+	 */
 	Label lbl;
+	/**
+	 * The Click count.
+	 */
 	int iClickCount = 0;
 
+	/**
+	 * Start.
+	 *
+	 * @param primaryStage the primary stage
+	 */
 	@Override
 	public void start(Stage primaryStage) {
 		// Create the button
@@ -38,6 +60,9 @@ public class ClickCounter extends Application {
 		primaryStage.show();
 	}
 
+	/**
+	 * Button click.
+	 */
 	public void buttonClick() {
 		iClickCount++;
 		if (iClickCount == 1) {

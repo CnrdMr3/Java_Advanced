@@ -1,7 +1,15 @@
 package Book4_page375.Chapter05_CreatingGenericCollectionClasses.GenericQueueClass_page458;
 
+/**
+ * The type Gen queue test.
+ */
 public class GenQueueTest {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         GenQueue<Employee> empList;
         empList = new GenQueue<Employee>();
         GenQueue<HourlyEmployee> hList;

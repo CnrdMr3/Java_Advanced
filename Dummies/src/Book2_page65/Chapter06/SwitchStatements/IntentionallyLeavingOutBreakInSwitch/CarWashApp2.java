@@ -1,10 +1,23 @@
 package Book2_page65.Chapter06.SwitchStatements.IntentionallyLeavingOutBreakInSwitch;
 
 import java.util.Scanner;
+
+/**
+ * The type Car wash app 2.
+ */
 public class CarWashApp2
 {
-    static Scanner sc = new Scanner(System.in);
-    public static void main(String[] args) {
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
+
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         System.out.println
                 ("The car wash application!\n\n");
         System.out.print("Enter the package code: ");
@@ -43,22 +56,52 @@ public class CarWashApp2
         System.out.println("\nThat package includes:\n");
         System.out.println(details);
     }
-    public static String packageA()
+
+	/**
+	 * Package a string.
+	 *
+	 * @return the string
+	 */
+	public static String packageA()
     {
         return "\tWash, vacuum, and hand dry.\n";
     }
-    public static String packageB() {
+
+	/**
+	 * Package b string.
+	 *
+	 * @return the string
+	 */
+	public static String packageB() {
         return "\tWax, plus ... \n";
     }
-    public static String packageC()
+
+	/**
+	 * Package c string.
+	 *
+	 * @return the string
+	 */
+	public static String packageC()
     {
         return "\tLeather/Vinyl Treatment, plus ... \n";
     }
-    public static String packageD()
+
+	/**
+	 * Package d string.
+	 *
+	 * @return the string
+	 */
+	public static String packageD()
     {
         return "\tTire Treatment, plus ... \n";
     }
-    public static String packageE()
+
+	/**
+	 * Package e string.
+	 *
+	 * @return the string
+	 */
+	public static String packageE()
     {
         return "\tNew Car Scent, plus ... \n";
     }

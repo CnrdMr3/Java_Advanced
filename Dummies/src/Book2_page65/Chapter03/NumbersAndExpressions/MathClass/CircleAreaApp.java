@@ -2,9 +2,21 @@ package Book2_page65.Chapter03.NumbersAndExpressions.MathClass;
 
 import java.util.Scanner;
 
+/**
+ * The type Circle area app.
+ */
 public class CircleAreaApp {
-    static Scanner sc = new Scanner(System.in);
-    public static void main(String[] args)
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
+
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args)
     {
         System.out.println(
                 "Welcome to the circle area calculator.");

@@ -1,7 +1,15 @@
 package Book4_page375.Chapter05_CreatingGenericCollectionClasses.GenericStackClass_page453;
 
+/**
+ * The type Gen stack test.
+ */
 public class GenStackTest {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         GenStack<String> gs = new GenStack<>();
         System.out.println("Pushing four items onto the stack.");
 

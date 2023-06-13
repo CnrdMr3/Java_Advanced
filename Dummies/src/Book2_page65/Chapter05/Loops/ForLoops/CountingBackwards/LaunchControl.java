@@ -1,7 +1,15 @@
 package Book2_page65.Chapter05.Loops.ForLoops.CountingBackwards;
 
+/**
+ * The type Launch control.
+ */
 public class LaunchControl {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         System.out.print
                 ("We are go for launch in T minus ");
 

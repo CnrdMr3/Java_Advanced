@@ -2,8 +2,16 @@ package Book5_page475.Chapter01_RunnableInterface_page480;
 
 import java.lang.Thread;
 
+/**
+ * The type Count down app.
+ */
 public class CountDownApp {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         CountDownClock clock = new CountDownClock();
         java.lang.Runnable flood, ignition, liftoff;
         flood = new LaunchEvent();

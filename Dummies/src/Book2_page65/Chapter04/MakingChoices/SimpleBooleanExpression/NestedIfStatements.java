@@ -1,7 +1,15 @@
 package Book2_page65.Chapter04.MakingChoices.SimpleBooleanExpression;
 
+/**
+ * The type Nested if statements.
+ */
 public class NestedIfStatements {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         int salesClass = 2;
         double salesTotal = 1234.0;
         double commissionRate;

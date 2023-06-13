@@ -6,6 +6,9 @@ listed in the preceding section.
 
 package Book3_page235.Chapter06.PrimitivesAreNotObjects;
 
+/**
+ * The type Primitives are not objects.
+ */
 public class PrimitivesAreNotObjects {
     // As a result, the following code won’t work:
 
@@ -14,7 +17,12 @@ public class PrimitivesAreNotObjects {
     String s = x.toString(); // error: won't compile
      */
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         /*
         If you really want to convert an int to a string in this way, you can use a wrapper
         class such as Integer to create an object from the value and then call its toString

@@ -2,9 +2,17 @@ package Book4_page375.Chapter05_CreatingGenericCollectionClasses.WhyGenerics_pag
 
 import java.util.ArrayList;
 
+/**
+ * The type Generics.
+ */
 public class Generics {
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         
         /* Before Java 1.5, collection classes could hold any type of object. For example, the
            add method for the ArrayList class had this declaration:

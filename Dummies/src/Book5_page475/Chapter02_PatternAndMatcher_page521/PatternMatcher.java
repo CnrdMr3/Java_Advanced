@@ -3,6 +3,9 @@ package Book5_page475.Chapter02_PatternAndMatcher_page521;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * The type Pattern matcher.
+ */
 public class PatternMatcher {
     private static Pattern droidPattern;
     private static boolean validDroidName(String droid)

@@ -3,8 +3,16 @@ package Book5_page475.Chapter04_CalculatingDates_page552;
 import java.util.*;
 import java.time.*;
 
+/**
+ * The type Calculate date.
+ */
 public class CalculateDate {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
 
         System.out.println("Today: " + LocalDate.now());
         System.out.println("Tomorrow: " + LocalDate.now().plusDays(1));

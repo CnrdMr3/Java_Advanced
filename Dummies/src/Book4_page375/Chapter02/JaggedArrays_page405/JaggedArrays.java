@@ -1,7 +1,15 @@
 package Book4_page375.Chapter02.JaggedArrays_page405;
 
+/**
+ * The type Jagged arrays.
+ */
 public class JaggedArrays {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         String[][] teams
                 = {{"Henry Blake", "Johnny Mulcahy"},
                 {"Benjamin Pierce", "John McIntyre",

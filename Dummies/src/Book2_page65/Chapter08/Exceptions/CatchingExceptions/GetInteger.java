@@ -3,16 +3,32 @@ package Book2_page65.Chapter08.Exceptions.CatchingExceptions;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * The type Get integer.
+ */
 public class GetInteger {
-    static Scanner sc = new Scanner(System.in);
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         System.out.print("Enter an integer: ");
         int i = GetAnInteger();
         System.out.println("You entered " + i);
     }
 
-    public static int GetAnInteger() {
+	/**
+	 * Get an integer int.
+	 *
+	 * @return the int
+	 */
+	public static int GetAnInteger() {
         while (true) {
             try {
                 return sc.nextInt();

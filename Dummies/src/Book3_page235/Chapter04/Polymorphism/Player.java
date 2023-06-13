@@ -1,7 +1,15 @@
 package Book3_page235.Chapter04.Polymorphism;
 
+/**
+ * The type Player.
+ */
 public class Player {
-    public int move() {
+	/**
+	 * Move int.
+	 *
+	 * @return the int
+	 */
+	public int move() {
         for (int i = 0; i < 9; i++) {
             System.out.println(
                     "\nThe basic player says:");

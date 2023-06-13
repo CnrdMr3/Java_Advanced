@@ -1,7 +1,15 @@
 package Book2_page65.Chapter03.NumbersAndExpressions.ArithmeticOperators;
 
+/**
+ * The type Arithmetic operator int and double.
+ */
 public class ArithmeticOperatorIntAndDouble {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         // int types:
         int a = 32, b = 5;
         int c = a + b; // c is 37

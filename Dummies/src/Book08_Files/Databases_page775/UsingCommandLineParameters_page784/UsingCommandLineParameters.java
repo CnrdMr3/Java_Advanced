@@ -1,10 +1,18 @@
 package Book08_Files.Databases_page775.UsingCommandLineParameters_page784;
 
+/**
+ * The type Using command line parameters.
+ */
 /*
 Ever since Book 1, Chapter 1, I’ve used this construction in every Java program
 presented so far:
  */
 public class UsingCommandLineParameters {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		String s1 = "the quick brown fox";
 		/*

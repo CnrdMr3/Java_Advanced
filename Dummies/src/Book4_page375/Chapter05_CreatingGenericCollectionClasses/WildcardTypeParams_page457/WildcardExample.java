@@ -1,5 +1,8 @@
 package Book4_page375.Chapter05_CreatingGenericCollectionClasses.WildcardTypeParams_page457;
 
+/**
+ * The type Wildcard example.
+ */
 public class WildcardExample {
     /*
     Suppose you have a method that’s declared like this:

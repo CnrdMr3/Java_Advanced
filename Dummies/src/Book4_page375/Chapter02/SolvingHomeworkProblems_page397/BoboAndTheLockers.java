@@ -13,8 +13,16 @@ lockers 1,000 times. Then he gets bored and goes home. How many of the school’
 1,000 lockers are left open, and which ones are they?
  */
 
+/**
+ * The type Bobo and the lockers.
+ */
 public class BoboAndTheLockers {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
 // true = open; false = closed
         boolean[] lockers = new boolean[1001];
 // close all the lockers

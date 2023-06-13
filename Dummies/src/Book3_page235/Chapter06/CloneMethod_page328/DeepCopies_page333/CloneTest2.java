@@ -2,8 +2,16 @@ package Book3_page235.Chapter06.CloneMethod_page328.DeepCopies_page333;
 
 //Creating a Deep Copy:
 
+/**
+ * The type Clone test 2.
+ */
 public class CloneTest2 {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         Employee emp1 = new Employee(
                 "Martinez", "Anthony");
         emp1.setSalary(40000.0);
@@ -35,13 +43,25 @@ public class CloneTest2 {
     }
 }
 
+/**
+ * The type Employee.
+ */
 //The Employee5 class. Notice that this class implements Cloneable.
 class Employee implements Cloneable {
     private String lastName;
     private String firstName;
     private Double salary;
-    public Address address;
+	/**
+	 * The Address.
+	 */
+	public Address address;
 
+	/**
+	 * Instantiates a new Employee.
+	 *
+	 * @param lastName  the last name
+	 * @param firstName the first name
+	 */
 //The address field, which holds an object of type Address.
     public Employee(String lastName, String firstName) {
         this.lastName = lastName;
@@ -49,30 +69,65 @@ class Employee implements Cloneable {
         this.address = new Address();
     }
 
-    public String getLastName() {
+	/**
+	 * Gets last name.
+	 *
+	 * @return the last name
+	 */
+	public String getLastName() {
         return this.lastName;
     }
 
-    public void setLastName(String lastName) {
+	/**
+	 * Sets last name.
+	 *
+	 * @param lastName the last name
+	 */
+	public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
-    public String getFirstName() {
+	/**
+	 * Gets first name.
+	 *
+	 * @return the first name
+	 */
+	public String getFirstName() {
         return this.firstName;
     }
 
-    public void setFirstName(String firstName) {
+	/**
+	 * Sets first name.
+	 *
+	 * @param firstName the first name
+	 */
+	public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    public Double getSalary() {
+	/**
+	 * Gets salary.
+	 *
+	 * @return the salary
+	 */
+	public Double getSalary() {
         return this.salary;
     }
 
-    public void setSalary(Double salary) {
+	/**
+	 * Sets salary.
+	 *
+	 * @param salary the salary
+	 */
+	public void setSalary(Double salary) {
         this.salary = salary;
     }
 
+	/**
+	 * Clone object.
+	 *
+	 * @return the object
+	 */
 //The clone method in the Employee5 class.
     public Object clone() {
         Employee emp;
@@ -93,27 +148,46 @@ class Employee implements Cloneable {
     a checked exception.
      */
 
-    public String toString() {
+	/**
+	 * To string string.
+	 *
+	 * @return the string
+	 */
+	public String toString() {
         return this.getClass().getName() + "["
                 + this.firstName + " " + this.lastName + ", "
                 + this.salary + "]";
     }
 }
 
+/**
+ * The type Address.
+ */
 class Address implements Cloneable {
     private String street;
     private String city;
     private String state;
     private String zipCode;
 
-    public Address() {
+	/**
+	 * Instantiates a new Address.
+	 */
+	public Address() {
         this.street = "";
         this.city = "";
         this.state = "";
         this.zipCode = "";
     }
 
-    public Address(String street, String city,
+	/**
+	 * Instantiates a new Address.
+	 *
+	 * @param street  the street
+	 * @param city    the city
+	 * @param state   the state
+	 * @param zipCode the zip code
+	 */
+	public Address(String street, String city,
                    String state, String zipCode) {
         this.street = street;
         this.city = city;
@@ -121,7 +195,12 @@ class Address implements Cloneable {
         this.zipCode = zipCode;
     }
 
-    public Object clone() {
+	/**
+	 * Clone object.
+	 *
+	 * @return the object
+	 */
+	public Object clone() {
         try {
             return super.clone();
         } catch (CloneNotSupportedException e) {
@@ -135,7 +214,12 @@ class Address implements Cloneable {
     a checked exception.
      */
 
-    public String getAddress() {
+	/**
+	 * Gets address.
+	 *
+	 * @return the address
+	 */
+	public String getAddress() {
         return this.street + "\n"
                 + this.city + ", "
                 + this.state + " "

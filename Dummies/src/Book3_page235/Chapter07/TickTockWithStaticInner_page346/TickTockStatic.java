@@ -4,6 +4,9 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * The type Tick tock static.
+ */
 public class TickTockStatic {
     //The tickMessage field is declared as static. This is necessary so that
     //the static class can access it.
@@ -11,7 +14,12 @@ public class TickTockStatic {
     //The tockMessage field is also declared as static.
     private static String tockMessage = "Tock...";
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         TickTockStatic t = new TickTockStatic();
         t.go();
     }
@@ -28,11 +36,19 @@ public class TickTockStatic {
         System.exit(0);
     }
 
-    //The Ticker class is declared as static.
+	/**
+	 * The type Ticker.
+	 */
+//The Ticker class is declared as static.
     static class Ticker implements ActionListener {
         private boolean tick = true;
 
-        public void actionPerformed(ActionEvent event) {
+		/**
+		 * Action performed.
+		 *
+		 * @param event the event
+		 */
+		public void actionPerformed(ActionEvent event) {
             if (tick) {
                 System.out.println(tickMessage);
             } else {

@@ -1,7 +1,15 @@
 package Book3_page235.Chapter08.WorkingWithPackages.ImportingClassesAndPackages_page354.util;
 
+/**
+ * The type Package test.
+ */
 public class PackageTest {
-    public static void main(String[] args)
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args)
     {
         while (Console.askYorN("Keep going?"))
         {

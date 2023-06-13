@@ -1,6 +1,12 @@
 package Book3_page235.Chapter04.OverridingMethods;
 
+/**
+ * The type Game.
+ */
 public class Game {
-    public void play(){
+	/**
+	 * Play.
+	 */
+	public void play(){
     }
 }

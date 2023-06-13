@@ -2,7 +2,15 @@ package Book08_Files.Databases_page775.WorkingWithFiles_page777;
 
 import java.io.File;
 
+/**
+ * The type Creating file object.
+ */
 public class CreatingFileObject {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		/*
 		To create a File object, you call the File constructor,

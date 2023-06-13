@@ -1,10 +1,23 @@
 package Book2_page65.Chapter06.SwitchStatements.IntentionallyLeavingOutBreakInSwitch;
 
 import java.util.Scanner;
+
+/**
+ * The type Car wash app.
+ */
 public class CarWashApp
 {
-    static Scanner sc = new Scanner(System.in);
-    public static void main(String[] args)
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
+
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args)
     {
         System.out.println
                 ("The car wash application!\n\n");

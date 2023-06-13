@@ -1,7 +1,15 @@
 package Book2_page65.Chapter03.NumbersAndExpressions.UnaryPlusAndMinusOperators;
 
+/**
+ * The type Unary plus and minus operators.
+ */
 public class UnaryPlusAndMinusOperators {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         //Example of Unary Operator:
         int a = 5; // a is 5
         int b = -a; // b is -5

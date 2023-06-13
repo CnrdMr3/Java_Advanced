@@ -1,7 +1,15 @@
 package Book2_page65.Chapter03.NumbersAndExpressions.RandomNumbers;
 
+/**
+ * The type Dice app.
+ */
 public class DiceApp {
-    public static void main(String[] args)
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args)
     {
         int roll;
         String msg = "Here are 100 random rolls of the dice:";
@@ -13,7 +21,15 @@ public class DiceApp {
         }
         System.out.println();
     }
-    public static int randomInt(int low, int high) {
+
+	/**
+	 * Random int int.
+	 *
+	 * @param low  the low
+	 * @param high the high
+	 * @return the int
+	 */
+	public static int randomInt(int low, int high) {
         int result = (int) (Math.random()
                 * (high - low + 1)) + low;
         return result;

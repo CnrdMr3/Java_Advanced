@@ -1,7 +1,13 @@
 package Book3_page235.Chapter05.UsingInterfaces.ImplementingInterfaces;
 
+/**
+ * The type Hearts.
+ */
 public class Hearts implements Playable, CardGame{
-    @Override
+	/**
+	 * Play.
+	 */
+	@Override
     public void play() {
 
     }

@@ -6,13 +6,29 @@ import javafx.scene.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
 
+/**
+ * The type Basic.
+ */
 public class Basic extends Application {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		launch(args);
 	}
 
+	/**
+	 * The Btn.
+	 */
 	Button btn;
 
+	/**
+	 * Start.
+	 *
+	 * @param primaryStage the primary stage
+	 */
 	@Override
 	public void start(Stage primaryStage) {
 		// Create the button
@@ -30,6 +46,9 @@ public class Basic extends Application {
 		primaryStage.show();
 	}
 
+	/**
+	 * Button click.
+	 */
 	public void buttonClick() {
 		if (btn.getText() == "Click me please!") {
 			btn.setText("You clicked me!");

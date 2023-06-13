@@ -17,8 +17,16 @@ variable in the other expressions that appear within the parentheses and in the
 body of the loop, but you can’t use it outside the loop.
  */
 
+/**
+ * The type Count to ten error fixed.
+ */
 public class CountToTenErrorFixed {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         int i;
 
         for (i = 1; i <=10; i++)

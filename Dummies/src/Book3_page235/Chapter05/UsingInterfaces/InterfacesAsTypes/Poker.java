@@ -1,11 +1,19 @@
 package Book3_page235.Chapter05.UsingInterfaces.InterfacesAsTypes;
 
+/**
+ * The type Poker.
+ */
 public class Poker extends Game
         implements Playable, CardGame {
     private static Object Dealable;
     private static Object String;
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         Object startGame = ((Dealable)(String));
 
     }
@@ -20,7 +28,10 @@ public class Poker extends Game
                 deck.deal(10);
         }
 
-    @Override
+	/**
+	 * Play.
+	 */
+	@Override
     public void play() {
 
     }

@@ -1,7 +1,15 @@
 package Book2_page65.Chapter03.NumbersAndExpressions.ArithmeticOperators.VariablesAndDataTypes.ConvertingAndCastingNumericData;
 
+/**
+ * The type Type casting.
+ */
 public class TypeCasting {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
 
         //Converting a double to an int will cause data loss ( 3.1314 wil return 3 )
 

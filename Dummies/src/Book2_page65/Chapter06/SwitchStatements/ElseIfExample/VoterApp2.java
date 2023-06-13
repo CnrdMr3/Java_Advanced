@@ -2,9 +2,21 @@ package Book2_page65.Chapter06.SwitchStatements.ElseIfExample;
 
 import java.util.Scanner;
 
+/**
+ * The type Voter app 2.
+ */
 public class VoterApp2 {
-    static Scanner sc = new Scanner(System.in);
-    public static void main(String[] args) {
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
+
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         System.out.println
                 ("Welcome to the voting machine "
                         + "error code decoder.\n\n"

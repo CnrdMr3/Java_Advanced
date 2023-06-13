@@ -3,8 +3,16 @@ package Book5_page475.Chapter04_UsingMontEmuniration_page547;
 import java.time.LocalDate;
 import java.time.Month;
 
+/**
+ * The type Can create like this.
+ */
 public class CanCreateLikeThis {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         LocalDate date = LocalDate.of(2014, Month.DECEMBER,15);
 
         System.out.println(date);

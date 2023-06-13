@@ -8,27 +8,76 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+/**
+ * The type Scene switcher.
+ */
 public class SceneSwitcher extends Application {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		launch(args);
 	}
 
-	// class fields for Click-Counter scene
+	/**
+	 * The Click count.
+	 */
+// class fields for Click-Counter scene
 	int iClickCount = 0;
+	/**
+	 * The Lbl clicks.
+	 */
 	Label lblClicks;
+	/**
+	 * The Btn click me.
+	 */
 	Button btnClickMe;
+	/**
+	 * The Btn switch to scene 2.
+	 */
 	Button btnSwitchToScene2;
+	/**
+	 * The Scene 1.
+	 */
 	Scene scene1;
-	// class fields for Add-Subtract scene
+	/**
+	 * The Counter.
+	 */
+// class fields for Add-Subtract scene
 	int iCounter = 0;
+	/**
+	 * The Lbl counter.
+	 */
 	Label lblCounter;
+	/**
+	 * The Btn add.
+	 */
 	Button btnAdd;
+	/**
+	 * The Btn subtract.
+	 */
 	Button btnSubtract;
+	/**
+	 * The Btn switch to scene 1.
+	 */
 	Button btnSwitchToScene1;
+	/**
+	 * The Scene 2.
+	 */
 	Scene scene2;
-	// class field for stage
+	/**
+	 * The Stage.
+	 */
+// class field for stage
 	Stage stage;
 
+	/**
+	 * Start.
+	 *
+	 * @param primaryStage the primary stage
+	 */
 	@Override
 	public void start(Stage primaryStage) {
 		stage = primaryStage;
@@ -65,7 +114,10 @@ public class SceneSwitcher extends Application {
 		primaryStage.show();
 	}
 
-	// Event handlers for scene 1
+	/**
+	 * Btn click me click.
+	 */
+// Event handlers for scene 1
 	public void btnClickMe_Click() {
 		iClickCount++;
 		if (iClickCount == 1) {

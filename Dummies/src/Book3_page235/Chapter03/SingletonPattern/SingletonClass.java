@@ -1,7 +1,15 @@
 package Book3_page235.Chapter03.SingletonPattern;
 
+/**
+ * The type Singleton class.
+ */
 public class SingletonClass {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         SingletonClass s1 = SingletonClass.getInstance();
         SingletonClass s2 = SingletonClass.getInstance();
 
@@ -16,7 +24,12 @@ public class SingletonClass {
     private SingletonClass() {
     }
 
-    public static SingletonClass getInstance() {
+	/**
+	 * Gets instance.
+	 *
+	 * @return the instance
+	 */
+	public static SingletonClass getInstance() {
         if (instance == null)
             instance = new SingletonClass();
         return instance;

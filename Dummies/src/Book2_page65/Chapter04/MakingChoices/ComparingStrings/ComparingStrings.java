@@ -1,7 +1,15 @@
 package Book2_page65.Chapter04.MakingChoices.ComparingStrings;
 
+/**
+ * The type Comparing strings.
+ */
 public class ComparingStrings {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         String answer = "Yes";
         String input = "End";
 

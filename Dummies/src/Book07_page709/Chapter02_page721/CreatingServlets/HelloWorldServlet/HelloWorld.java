@@ -2,8 +2,18 @@ package Book07_page709.Chapter02_page721.CreatingServlets.HelloWorldServlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-	public class HelloWorld extends HttpServlet
+
+/**
+ * The type Hello world.
+ */
+public class HelloWorld extends HttpServlet
 	{
+		/**
+		 * Do get.
+		 *
+		 * @param response the response
+		 * @throws IOException the io exception
+		 */
 		public void doGet(HttpServletResponse response)
 				throws IOException {
 			response.getClass();

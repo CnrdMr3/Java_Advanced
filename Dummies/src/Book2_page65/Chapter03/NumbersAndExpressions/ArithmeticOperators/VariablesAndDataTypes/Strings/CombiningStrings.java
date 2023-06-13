@@ -1,7 +1,15 @@
 package Book2_page65.Chapter03.NumbersAndExpressions.ArithmeticOperators.VariablesAndDataTypes.Strings;
 
+/**
+ * The type Combining strings.
+ */
 public class CombiningStrings {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         String hello = "Hello";
         String world = "World!";
         String helloWorld = hello + world;

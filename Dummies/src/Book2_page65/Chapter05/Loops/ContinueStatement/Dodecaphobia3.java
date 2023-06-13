@@ -1,7 +1,15 @@
 package Book2_page65.Chapter05.Loops.ContinueStatement;
 
+/**
+ * The type Dodecaphobia 3.
+ */
 public class Dodecaphobia3 {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         int number = 0;
         while (number < 20) {
             number += 2;

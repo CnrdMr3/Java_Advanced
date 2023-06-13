@@ -3,8 +3,16 @@ package Book4_page375.Chapter01.InitializingAnArray_page395;
 
 import java.util.Arrays;
 
+/**
+ * The type Days of the week.
+ */
 public class DaysOfTheWeek {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
        String[] days = new String[7];
         days[0] = "Sunday";
         days[1] = "Monday";

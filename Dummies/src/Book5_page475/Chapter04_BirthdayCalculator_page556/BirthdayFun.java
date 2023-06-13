@@ -5,10 +5,21 @@ import java.time.*;
 import java.time.format.*;
 import java.time.temporal.*;
 
+/**
+ * The type Birthday fun.
+ */
 public class BirthdayFun {
-    static Scanner sc = new Scanner(System.in);
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         do {
             LocalDate birthDate;
             DateTimeFormatter fullFormat = DateTimeFormatter.ofPattern("MMMM d, YYYY");

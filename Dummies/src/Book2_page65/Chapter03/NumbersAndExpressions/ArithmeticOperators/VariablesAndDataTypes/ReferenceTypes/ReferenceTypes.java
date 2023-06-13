@@ -1,7 +1,15 @@
 package Book2_page65.Chapter03.NumbersAndExpressions.ArithmeticOperators.VariablesAndDataTypes.ReferenceTypes;
 
+/**
+ * The type Reference types.
+ */
 public class ReferenceTypes {
-  public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
 
     Ball b1 = new Ball();
     Ball b2 = b1;

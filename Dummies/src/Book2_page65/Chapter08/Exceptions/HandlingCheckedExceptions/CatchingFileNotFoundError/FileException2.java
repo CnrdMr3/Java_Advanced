@@ -3,12 +3,25 @@ package Book2_page65.Chapter08.Exceptions.HandlingCheckedExceptions.CatchingFile
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
+/**
+ * The type File exception 2.
+ */
 public class FileException2 {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         openFile("C:\test.txt");
     }
 
-    public static void openFile(String name) {
+	/**
+	 * Open file.
+	 *
+	 * @param name the name
+	 */
+	public static void openFile(String name) {
         try {
             FileInputStream f =
                     new FileInputStream(name);

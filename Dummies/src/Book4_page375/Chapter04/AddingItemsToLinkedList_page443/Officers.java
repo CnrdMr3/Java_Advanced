@@ -2,8 +2,16 @@ package Book4_page375.Chapter04.AddingItemsToLinkedList_page443;
 
 import java.util.LinkedList;
 
+/**
+ * The type Officers.
+ */
 public class Officers {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         LinkedList<String> officers = new LinkedList<>();
         // .add = Add Strings in order typed:
         officers.add("Fuzz");

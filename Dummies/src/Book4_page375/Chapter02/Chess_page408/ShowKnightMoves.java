@@ -1,7 +1,13 @@
 package Book4_page375.Chapter02.Chess_page408;
 
+/**
+ * The type Show knight moves.
+ */
 public class ShowKnightMoves extends Chess {
-    public static void showKnightMoves() {
+	/**
+	 * Show knight moves.
+	 */
+	public static void showKnightMoves() {
         // The first dimension is the file (a, b, c, etc.)
         // The second dimension is the rank (1, 2, 3, etc.)
         // Thus, board[3][4] is square d5.
@@ -19,7 +25,13 @@ public class ShowKnightMoves extends Chess {
         } while (kPos == null);
     }
 
-    static Pos convertSquareToPos(String kSquare) {
+	/**
+	 * Convert square to pos pos.
+	 *
+	 * @param kSquare the k square
+	 * @return the pos
+	 */
+	static Pos convertSquareToPos(String kSquare) {
         return null;
     }
 }

@@ -2,9 +2,21 @@ package Book2_page65.Chapter06.SwitchStatements.UsingSwitchStatement;
 
 import java.util.Scanner;
 
+/**
+ * The type Commission rate.
+ */
 public class CommissionRate {
-    static Scanner sc = new Scanner(System.in);
-    public static void main(String[] args) {
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
+
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         System.out.println("Enter Sales Class: ");
 
         double commissionRate;

@@ -2,9 +2,21 @@ package Book2_page65.Chapter06.SwitchStatements.SwitchingWithStrings;
 
 import java.util.Scanner;
 
+/**
+ * The type Car wash string app.
+ */
 public class CarWashStringApp {
-    static Scanner sc = new Scanner(System.in);
-    public static void main(String[] args) {
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
+
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         System.out.println("The car wash application\n\n");
         System.out.print("Enter the package code: ");
 

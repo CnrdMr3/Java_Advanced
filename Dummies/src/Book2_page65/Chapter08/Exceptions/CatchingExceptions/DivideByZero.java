@@ -1,7 +1,15 @@
 package Book2_page65.Chapter08.Exceptions.CatchingExceptions;
 
+/**
+ * The type Divide by zero.
+ */
 public class DivideByZero {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
         int a = 5;
         int b = 0; // you know this won't work
         try {

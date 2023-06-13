@@ -5,15 +5,48 @@ package Book5_page475.Chapter02_RegularExpressions_page506;
 import java.util.regex.*;
 import java.util.Scanner;
 
+/**
+ * The type Basic character matching.
+ */
 public class BasicCharacterMatching {
-    static String a, b, c;
-    static Pattern pattern;
-    static Matcher matcher;
-    static boolean match, validRegex, doneMatching;
+	/**
+	 * The A.
+	 */
+	static String a, /**
+	 * The B.
+	 */
+	b, /**
+	 * The C.
+	 */
+	c;
+	/**
+	 * The Pattern.
+	 */
+	static Pattern pattern;
+	/**
+	 * The Matcher.
+	 */
+	static Matcher matcher;
+	/**
+	 * The Match.
+	 */
+	static boolean match, /**
+	 * The Valid regex.
+	 */
+	validRegex, /**
+	 * The Done matching.
+	 */
+	doneMatching;
     private static Scanner sc =
             new Scanner(System.in);
 
-    public static <a> void main(String[] args) {
+	/**
+	 * Main.
+	 *
+	 * @param <a>  the type parameter
+	 * @param args the args
+	 */
+	public static <a> void main(String[] args) {
         System.out.println("Welcome to the "
                 + "Regex Tester\n");
         do {

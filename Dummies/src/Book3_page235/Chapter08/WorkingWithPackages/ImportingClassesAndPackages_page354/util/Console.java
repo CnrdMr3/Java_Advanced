@@ -1,10 +1,24 @@
 package Book3_page235.Chapter08.WorkingWithPackages.ImportingClassesAndPackages_page354.util;
 
 import java.util.Scanner;
+
+/**
+ * The type Console.
+ */
 public class Console
 {
-    static Scanner sc = new Scanner(System.in);
-    public static boolean askYorN(String prompt)
+	/**
+	 * The Sc.
+	 */
+	static Scanner sc = new Scanner(System.in);
+
+	/**
+	 * Ask yor n boolean.
+	 *
+	 * @param prompt the prompt
+	 * @return the boolean
+	 */
+	public static boolean askYorN(String prompt)
     {
         while (true)
         {

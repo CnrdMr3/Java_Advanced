@@ -2,8 +2,16 @@ package Book4_page375.Chapter02.SearchingAnArray_page419;
 
 import java.util.Arrays;
 
+/**
+ * The type Searching array.
+ */
 public class SearchingArray {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
       /*  int lucky = 13x;
         int foundAt = -1;
         for (int i = 0; i < lotto.length; i++)

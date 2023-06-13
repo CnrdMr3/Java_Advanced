@@ -2,11 +2,19 @@ package Book08_Files.Databases_page775.WorkingWithFiles_page777;
 
 import java.io.File;
 
+/**
+ * The type Deleting a file.
+ */
 /*
 	To delete a file, create a File object for the file and then call the delete method,
 	as in this example:
  */
 public class DeletingAFile {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		File f = new File("hits.log");
 		if (f.delete())

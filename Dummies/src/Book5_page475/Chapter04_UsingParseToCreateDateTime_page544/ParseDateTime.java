@@ -4,8 +4,16 @@ import java.time.format.DateTimeParseException;
 import java.util.*;
 import java.time.*;
 
+/**
+ * The type Parse date time.
+ */
 public class ParseDateTime {
-    public static void main(String[] args) {
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
+	public static void main(String[] args) {
 
         LocalDate d = LocalDate.parse("2014-12-15");
 
